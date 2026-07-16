@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/data/CTA02/kleimenov/EBL_Anisotropy_Static/build",
+  "command": "/usr/bin/g++  -I/data/CTA02/kleimenov/EBL_Anisotropy_Static/include -g -std=c++2a -o CMakeFiles/octree.dir/src/octree.cpp.o -c /data/CTA02/kleimenov/EBL_Anisotropy_Static/src/octree.cpp",
+  "file": "/data/CTA02/kleimenov/EBL_Anisotropy_Static/src/octree.cpp",
+  "output": "CMakeFiles/octree.dir/src/octree.cpp.o"
+},
+{
+  "directory": "/data/CTA02/kleimenov/EBL_Anisotropy_Static/build",
+  "command": "/usr/bin/g++  -I/data/CTA02/kleimenov/EBL_Anisotropy_Static/include -g -std=c++2a -o CMakeFiles/octree.dir/src/vector3d.cpp.o -c /data/CTA02/kleimenov/EBL_Anisotropy_Static/src/vector3d.cpp",
+  "file": "/data/CTA02/kleimenov/EBL_Anisotropy_Static/src/vector3d.cpp",
+  "output": "CMakeFiles/octree.dir/src/vector3d.cpp.o"
+},
+{
+  "directory": "/data/CTA02/kleimenov/EBL_Anisotropy_Static/build",
+  "command": "/usr/bin/g++  -I/data/CTA02/kleimenov/EBL_Anisotropy_Static/include -g -std=c++2a -o CMakeFiles/test_octree.dir/tests/test_octree.cpp.o -c /data/CTA02/kleimenov/EBL_Anisotropy_Static/tests/test_octree.cpp",
+  "file": "/data/CTA02/kleimenov/EBL_Anisotropy_Static/tests/test_octree.cpp",
+  "output": "CMakeFiles/test_octree.dir/tests/test_octree.cpp.o"
+}
+]

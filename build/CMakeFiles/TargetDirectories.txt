@@ -1,0 +1,4 @@
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/octree.dir
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/test_octree.dir
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/edit_cache.dir
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/rebuild_cache.dir
