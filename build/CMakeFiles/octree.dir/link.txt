@@ -1,2 +1,0 @@
-/usr/bin/ar qc liboctree.a CMakeFiles/octree.dir/src/octree.cpp.o CMakeFiles/octree.dir/src/vector3d.cpp.o
-/usr/bin/ranlib liboctree.a

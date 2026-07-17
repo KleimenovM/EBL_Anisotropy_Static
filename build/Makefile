@@ -117,102 +117,163 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named octree
+# Target rules for targets named ebl_core
 
 # Build rule for target.
-octree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 octree
-.PHONY : octree
+ebl_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ebl_core
+.PHONY : ebl_core
 
 # fast build rule for target.
-octree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/build
-.PHONY : octree/fast
+ebl_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/build
+.PHONY : ebl_core/fast
 
 #=============================================================================
-# Target rules for targets named test_octree
+# Target rules for targets named test_biteau_reader
 
 # Build rule for target.
-test_octree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_octree
-.PHONY : test_octree
+test_biteau_reader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_biteau_reader
+.PHONY : test_biteau_reader
 
 # fast build rule for target.
-test_octree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_octree.dir/build.make CMakeFiles/test_octree.dir/build
-.PHONY : test_octree/fast
+test_biteau_reader/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_reader.dir/build.make CMakeFiles/test_biteau_reader.dir/build
+.PHONY : test_biteau_reader/fast
 
-src/octree.o: src/octree.cpp.o
-.PHONY : src/octree.o
+#=============================================================================
+# Target rules for targets named test_biteau_histogram
 
-# target to build an object file
-src/octree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/src/octree.cpp.o
-.PHONY : src/octree.cpp.o
+# Build rule for target.
+test_biteau_histogram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_biteau_histogram
+.PHONY : test_biteau_histogram
 
-src/octree.i: src/octree.cpp.i
-.PHONY : src/octree.i
+# fast build rule for target.
+test_biteau_histogram/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_histogram.dir/build.make CMakeFiles/test_biteau_histogram.dir/build
+.PHONY : test_biteau_histogram/fast
 
-# target to preprocess a source file
-src/octree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/src/octree.cpp.i
-.PHONY : src/octree.cpp.i
-
-src/octree.s: src/octree.cpp.s
-.PHONY : src/octree.s
-
-# target to generate assembly for a file
-src/octree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/src/octree.cpp.s
-.PHONY : src/octree.cpp.s
-
-src/vector3d.o: src/vector3d.cpp.o
-.PHONY : src/vector3d.o
+src/galaxy/galaxyReader.o: src/galaxy/galaxyReader.cpp.o
+.PHONY : src/galaxy/galaxyReader.o
 
 # target to build an object file
-src/vector3d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/src/vector3d.cpp.o
-.PHONY : src/vector3d.cpp.o
+src/galaxy/galaxyReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/galaxy/galaxyReader.cpp.o
+.PHONY : src/galaxy/galaxyReader.cpp.o
 
-src/vector3d.i: src/vector3d.cpp.i
-.PHONY : src/vector3d.i
+src/galaxy/galaxyReader.i: src/galaxy/galaxyReader.cpp.i
+.PHONY : src/galaxy/galaxyReader.i
 
 # target to preprocess a source file
-src/vector3d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/src/vector3d.cpp.i
-.PHONY : src/vector3d.cpp.i
+src/galaxy/galaxyReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/galaxy/galaxyReader.cpp.i
+.PHONY : src/galaxy/galaxyReader.cpp.i
 
-src/vector3d.s: src/vector3d.cpp.s
-.PHONY : src/vector3d.s
+src/galaxy/galaxyReader.s: src/galaxy/galaxyReader.cpp.s
+.PHONY : src/galaxy/galaxyReader.s
 
 # target to generate assembly for a file
-src/vector3d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/octree.dir/build.make CMakeFiles/octree.dir/src/vector3d.cpp.s
-.PHONY : src/vector3d.cpp.s
+src/galaxy/galaxyReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/galaxy/galaxyReader.cpp.s
+.PHONY : src/galaxy/galaxyReader.cpp.s
 
-tests/test_octree.o: tests/test_octree.cpp.o
-.PHONY : tests/test_octree.o
+src/geometry/spherical.o: src/geometry/spherical.cpp.o
+.PHONY : src/geometry/spherical.o
 
 # target to build an object file
-tests/test_octree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_octree.dir/build.make CMakeFiles/test_octree.dir/tests/test_octree.cpp.o
-.PHONY : tests/test_octree.cpp.o
+src/geometry/spherical.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/geometry/spherical.cpp.o
+.PHONY : src/geometry/spherical.cpp.o
 
-tests/test_octree.i: tests/test_octree.cpp.i
-.PHONY : tests/test_octree.i
+src/geometry/spherical.i: src/geometry/spherical.cpp.i
+.PHONY : src/geometry/spherical.i
 
 # target to preprocess a source file
-tests/test_octree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_octree.dir/build.make CMakeFiles/test_octree.dir/tests/test_octree.cpp.i
-.PHONY : tests/test_octree.cpp.i
+src/geometry/spherical.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/geometry/spherical.cpp.i
+.PHONY : src/geometry/spherical.cpp.i
 
-tests/test_octree.s: tests/test_octree.cpp.s
-.PHONY : tests/test_octree.s
+src/geometry/spherical.s: src/geometry/spherical.cpp.s
+.PHONY : src/geometry/spherical.s
 
 # target to generate assembly for a file
-tests/test_octree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_octree.dir/build.make CMakeFiles/test_octree.dir/tests/test_octree.cpp.s
-.PHONY : tests/test_octree.cpp.s
+src/geometry/spherical.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/geometry/spherical.cpp.s
+.PHONY : src/geometry/spherical.cpp.s
+
+src/geometry/vector3d.o: src/geometry/vector3d.cpp.o
+.PHONY : src/geometry/vector3d.o
+
+# target to build an object file
+src/geometry/vector3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/geometry/vector3d.cpp.o
+.PHONY : src/geometry/vector3d.cpp.o
+
+src/geometry/vector3d.i: src/geometry/vector3d.cpp.i
+.PHONY : src/geometry/vector3d.i
+
+# target to preprocess a source file
+src/geometry/vector3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/geometry/vector3d.cpp.i
+.PHONY : src/geometry/vector3d.cpp.i
+
+src/geometry/vector3d.s: src/geometry/vector3d.cpp.s
+.PHONY : src/geometry/vector3d.s
+
+# target to generate assembly for a file
+src/geometry/vector3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ebl_core.dir/build.make CMakeFiles/ebl_core.dir/src/geometry/vector3d.cpp.s
+.PHONY : src/geometry/vector3d.cpp.s
+
+tests/integration/test_biteau_histogram.o: tests/integration/test_biteau_histogram.cpp.o
+.PHONY : tests/integration/test_biteau_histogram.o
+
+# target to build an object file
+tests/integration/test_biteau_histogram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_histogram.dir/build.make CMakeFiles/test_biteau_histogram.dir/tests/integration/test_biteau_histogram.cpp.o
+.PHONY : tests/integration/test_biteau_histogram.cpp.o
+
+tests/integration/test_biteau_histogram.i: tests/integration/test_biteau_histogram.cpp.i
+.PHONY : tests/integration/test_biteau_histogram.i
+
+# target to preprocess a source file
+tests/integration/test_biteau_histogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_histogram.dir/build.make CMakeFiles/test_biteau_histogram.dir/tests/integration/test_biteau_histogram.cpp.i
+.PHONY : tests/integration/test_biteau_histogram.cpp.i
+
+tests/integration/test_biteau_histogram.s: tests/integration/test_biteau_histogram.cpp.s
+.PHONY : tests/integration/test_biteau_histogram.s
+
+# target to generate assembly for a file
+tests/integration/test_biteau_histogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_histogram.dir/build.make CMakeFiles/test_biteau_histogram.dir/tests/integration/test_biteau_histogram.cpp.s
+.PHONY : tests/integration/test_biteau_histogram.cpp.s
+
+tests/unit/test_biteau_reader.o: tests/unit/test_biteau_reader.cpp.o
+.PHONY : tests/unit/test_biteau_reader.o
+
+# target to build an object file
+tests/unit/test_biteau_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_reader.dir/build.make CMakeFiles/test_biteau_reader.dir/tests/unit/test_biteau_reader.cpp.o
+.PHONY : tests/unit/test_biteau_reader.cpp.o
+
+tests/unit/test_biteau_reader.i: tests/unit/test_biteau_reader.cpp.i
+.PHONY : tests/unit/test_biteau_reader.i
+
+# target to preprocess a source file
+tests/unit/test_biteau_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_reader.dir/build.make CMakeFiles/test_biteau_reader.dir/tests/unit/test_biteau_reader.cpp.i
+.PHONY : tests/unit/test_biteau_reader.cpp.i
+
+tests/unit/test_biteau_reader.s: tests/unit/test_biteau_reader.cpp.s
+.PHONY : tests/unit/test_biteau_reader.s
+
+# target to generate assembly for a file
+tests/unit/test_biteau_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_biteau_reader.dir/build.make CMakeFiles/test_biteau_reader.dir/tests/unit/test_biteau_reader.cpp.s
+.PHONY : tests/unit/test_biteau_reader.cpp.s
 
 # Help Target
 help:
@@ -222,17 +283,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... octree"
-	@echo "... test_octree"
-	@echo "... src/octree.o"
-	@echo "... src/octree.i"
-	@echo "... src/octree.s"
-	@echo "... src/vector3d.o"
-	@echo "... src/vector3d.i"
-	@echo "... src/vector3d.s"
-	@echo "... tests/test_octree.o"
-	@echo "... tests/test_octree.i"
-	@echo "... tests/test_octree.s"
+	@echo "... ebl_core"
+	@echo "... test_biteau_histogram"
+	@echo "... test_biteau_reader"
+	@echo "... src/galaxy/galaxyReader.o"
+	@echo "... src/galaxy/galaxyReader.i"
+	@echo "... src/galaxy/galaxyReader.s"
+	@echo "... src/geometry/spherical.o"
+	@echo "... src/geometry/spherical.i"
+	@echo "... src/geometry/spherical.s"
+	@echo "... src/geometry/vector3d.o"
+	@echo "... src/geometry/vector3d.i"
+	@echo "... src/geometry/vector3d.s"
+	@echo "... tests/integration/test_biteau_histogram.o"
+	@echo "... tests/integration/test_biteau_histogram.i"
+	@echo "... tests/integration/test_biteau_histogram.s"
+	@echo "... tests/unit/test_biteau_reader.o"
+	@echo "... tests/unit/test_biteau_reader.i"
+	@echo "... tests/unit/test_biteau_reader.s"
 .PHONY : help
 
 

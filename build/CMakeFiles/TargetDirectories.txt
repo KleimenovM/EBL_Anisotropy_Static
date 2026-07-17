@@ -1,4 +1,5 @@
-/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/octree.dir
-/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/test_octree.dir
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/ebl_core.dir
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/test_biteau_reader.dir
+/data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/test_biteau_histogram.dir
 /data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/edit_cache.dir
 /data/CTA02/kleimenov/EBL_Anisotropy_Static/build/CMakeFiles/rebuild_cache.dir

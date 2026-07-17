@@ -39,6 +39,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/octree.dir/DependInfo.cmake"
-  "CMakeFiles/test_octree.dir/DependInfo.cmake"
+  "CMakeFiles/ebl_core.dir/DependInfo.cmake"
+  "CMakeFiles/test_biteau_reader.dir/DependInfo.cmake"
+  "CMakeFiles/test_biteau_histogram.dir/DependInfo.cmake"
   )
