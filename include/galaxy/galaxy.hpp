@@ -1,5 +1,7 @@
 #include "geometry/vector3d.hpp"
 
+#pragma once
+
 
 struct Galaxy
 {
@@ -8,4 +10,3 @@ struct Galaxy
     float logMstar;      // log10(M*/Msun)
     float logSFR;        // log10(Msun/yr)
 };
-

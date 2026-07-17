@@ -1,15 +1,15 @@
-#ifndef OCTREE_HPP
-#define OCTREE_HPP
+#pragma once
 
 #include <array>
 #include <vector>
+
 #include "geometry/vector3d.hpp"
 
 
 struct Source
 {
-    Vector3D position;
-    float mass;
+    Vector3D position;  // position of the source
+    float mass;        // weight in the octree
 };
 
 
@@ -70,6 +70,19 @@ public:
 
     // Tree debugging function
     void print() const;
+
+    void print(
+        std::ofstream& output
+    ) const;
+
+    // Visualization writer.
+    void write_visualization(
+        std::ofstream& output
+    ) const;
+
+    void write_sources_visualization(
+        std::ofstream& output
+    ) const;
 
 private:
 
@@ -137,8 +150,14 @@ private:
     // Recursive tree printer.
     void print_recursive(
         int node_index,
-        int depth
+        int depth,
+        std::ostream& output
+    ) const;
+
+    // Recursive visualization writer.
+    void write_visualization_recursive(
+        std::ofstream& output,
+        int node_index,
+        int parent_index
     ) const;
 };
-
-#endif

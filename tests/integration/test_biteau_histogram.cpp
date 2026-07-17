@@ -18,15 +18,11 @@ Histogram makeHistogram(
     size_t n_bins
 )
 {
-    float min_value =
-        *std::min_element(values.begin(), values.end());
+    float min_value = *std::min_element(values.begin(), values.end());
 
-    float max_value =
-        *std::max_element(values.begin(), values.end());
+    float max_value = *std::max_element(values.begin(), values.end());
 
-
-    float width =
-        (max_value - min_value) / n_bins;
+    float width = (max_value - min_value) / n_bins;
 
 
     Histogram hist;
@@ -37,8 +33,7 @@ Histogram makeHistogram(
 
     for (size_t i = 0; i <= n_bins; i++)
     {
-        hist.bins[i] =
-            min_value + i * width;
+        hist.bins[i] = min_value + i * width;
     }
 
 

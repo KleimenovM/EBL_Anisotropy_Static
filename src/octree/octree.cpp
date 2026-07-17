@@ -2,6 +2,7 @@
 #include <algorithm>
 
 #include <iostream>
+#include <fstream>
 #include <string>
 
 #include "octree/octree.hpp"
@@ -181,7 +182,7 @@ void Octree::update_node(
     OctreeNode& node,
     const Source& source
 )
-{
+{   
     float new_mass = node.total_mass + source.mass;
 
     // shift the center of mass
@@ -255,46 +256,130 @@ float Octree::evaluate(
 
 
 void Octree::print() const
-{   
-    print_recursive(root_index_, 0);
+{
+    print_recursive(
+        root_index_,
+        0,
+        std::cout
+    );
+}
+
+
+void Octree::print(
+    std::ofstream& output
+) const
+{
+    print_recursive(
+        root_index_,
+        0,
+        output
+    );
 }
 
 void Octree::print_recursive(
     int node_index,
-    int depth
+    int depth,
+    std::ostream& output
 ) const
 {   
     const OctreeNode& node = nodes_[node_index];
 
     std::string indent(depth * 2, ' ');
 
-    std::cout << indent << "Node " << node_index << "\n";
+    output << indent << "Node " << node_index << "\n";
 
-    std::cout << indent << "center = " << node.center << "\n";
+    output << indent << "center = " << node.center << "\n";
 
-    std::cout << indent << "half_size = " << node.half_size << "\n";
+    output << indent << "half_size = " << node.half_size << "\n";
 
-    std::cout << indent << "mass = " << node.total_mass << "\n";
+    output << indent << "mass = " << node.total_mass << "\n";
 
-    std::cout << indent << "mass_center = " << node.mass_center << "\n";
+    output << indent << "mass_center = " << node.mass_center << "\n";
 
-    std::cout << indent << "leaf = " << (node.is_leaf ? "true" : "false") << "\n";
+    output << indent << "leaf = " << (node.is_leaf ? "true" : "false") << "\n";
 
     if (node.is_leaf){
-        std::cout << indent << "sources: ";
+        output << indent << "sources: ";
 
         for (int index : node.source_indices){
-            std::cout << index << " ";
+            output << index << " ";
         }
-        std::cout << "\n";
+        output << "\n";
     }
-    std::cout << "\n";
+    output << "\n";
 
     if (!node.is_leaf){
         for (int i = 0; i < 8; i++){
             if (node.children[i] != -1){
-                print_recursive(node.children[i], depth + 1);
+                print_recursive(node.children[i], depth + 1, output);
             }
         }
+    }
+}
+
+void Octree::write_visualization(
+    std::ofstream& output
+) const
+{
+    output << "# node_id parent_id cx cy cz mass half_size leaf\n";
+
+    write_visualization_recursive(
+        output,
+        root_index_,
+        -1
+    );
+}
+
+
+void Octree::write_visualization_recursive(
+    std::ofstream& output,
+    int node_index,
+    int parent_index
+) const
+{
+    const OctreeNode& node = nodes_[node_index];
+
+    output
+        << node_index << " "
+        << parent_index << " "
+        << node.center.x << " "
+        << node.center.y << " "
+        << node.center.z << " "
+        << node.total_mass << " "
+        << node.half_size << " "
+        << (node.is_leaf ? 1 : 0)
+        << "\n";
+
+
+    if (!node.is_leaf)
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            if (node.children[i] != -1)
+            {
+                write_visualization_recursive(
+                    output,
+                    node.children[i],
+                    node_index
+                );
+            }
+        }
+    }
+}
+
+void Octree::write_sources_visualization(
+    std::ofstream& output
+) const
+{
+    output << "# x y z mass\n";
+
+    for (const Source& source : sources_)
+    {
+        output
+            << source.position.x << " "
+            << source.position.y << " "
+            << source.position.z << " "
+            << source.mass
+            << "\n";
     }
 }
