@@ -4,16 +4,18 @@
 #include <iostream>
 #include <string>
 
-#include "octree.hpp"
-#include "vector3d.hpp"
+#include "octree/octree.hpp"
+#include "geometry/vector3d.hpp"
 
-
-constexpr double FOUR_PI = 12.56637061435917295385;
+namespace
+{
+    constexpr float FOUR_PI = 4.0f * static_cast<float>(M_PI);
+}
 
 
 OctreeNode::OctreeNode(
     const Vector3D& c,
-    double h
+    float h
 )
     :
     center(c),
@@ -30,9 +32,9 @@ OctreeNode::OctreeNode(
 
 Octree::Octree(
     const std::vector<Source>& sources,
-    double half_size,
-    double max_mass,
-    double min_size
+    float half_size,
+    float max_mass,
+    float min_size
 )
     :
     sources_(sources),
@@ -55,7 +57,7 @@ size_t Octree::size() const
     return nodes_.size();
 }
 
-double Octree::distance(
+float Octree::distance(
     const Vector3D& a,
     const Vector3D& b
 ) const
@@ -134,7 +136,7 @@ void Octree::subdivide(
     int node_index
 )
 {
-    double h = nodes_[node_index].half_size / 2.0;
+    float h = nodes_[node_index].half_size / 2.0;
     Vector3D parent_center = nodes_[node_index].center;
 
     for (int i = 0; i < 8; i++)
@@ -180,7 +182,7 @@ void Octree::update_node(
     const Source& source
 )
 {
-    double new_mass = node.total_mass + source.mass;
+    float new_mass = node.total_mass + source.mass;
 
     // shift the center of mass
     if (new_mass > 0.0){
@@ -194,10 +196,10 @@ void Octree::update_node(
 }
 
 
-double Octree::evaluate_recursive(
+float Octree::evaluate_recursive(
     int node_index,
     const Vector3D& position,
-    double opening_angle
+    float opening_angle
 ) const
 {
     const OctreeNode& node = nodes_[node_index];
@@ -206,7 +208,7 @@ double Octree::evaluate_recursive(
     if (node.total_mass == 0.0)
         return 0.0;
 
-    double d = distance(node.mass_center, position);
+    float d = distance(node.mass_center, position);
 
     // Avoid self-contribution
     if (d == 0.0)
@@ -220,7 +222,7 @@ double Octree::evaluate_recursive(
     }
 
     // ELSE open the node
-    double value = 0.0;
+    float value = 0.0;
 
     // and add contributions from all children
     for (int i = 0; i < 8; i++)
@@ -239,9 +241,9 @@ double Octree::evaluate_recursive(
 }
 
 
-double Octree::evaluate(
+float Octree::evaluate(
     const Vector3D& position,
-    double opening_angle
+    float opening_angle
 ) const
 {
     return evaluate_recursive(

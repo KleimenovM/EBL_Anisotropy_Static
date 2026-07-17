@@ -1,4 +1,4 @@
-#include "vector3d.hpp"
+#include "geometry/vector3d.hpp"
 
 
 Vector3D::Vector3D()
@@ -11,9 +11,9 @@ Vector3D::Vector3D()
 
 
 Vector3D::Vector3D(
-    double x_,
-    double y_,
-    double z_
+    float x_,
+    float y_,
+    float z_
 )
     :
     x(x_),
@@ -22,17 +22,17 @@ Vector3D::Vector3D(
 {
 }
 
-double Vector3D::norm2() const
+float Vector3D::norm2() const
 {
     return x*x + y*y + z*z;
 }
 
-double Vector3D::norm() const
+float Vector3D::norm() const
 {
     return std::sqrt(norm2());
 }
 
-double Vector3D::dot(const Vector3D& other) const
+float Vector3D::dot(const Vector3D& other) const
 {
     return x*other.x
          + y*other.y
@@ -67,7 +67,7 @@ Vector3D& Vector3D::operator+=(const Vector3D& other)
     return *this;
 }
 
-Vector3D Vector3D::operator*(double scalar) const
+Vector3D Vector3D::operator*(float scalar) const
 {
     return Vector3D(
         scalar*x,
@@ -76,7 +76,7 @@ Vector3D Vector3D::operator*(double scalar) const
     );
 }
 
-Vector3D Vector3D::operator/(double scalar) const
+Vector3D Vector3D::operator/(float scalar) const
 {
     return Vector3D(
         x / scalar,

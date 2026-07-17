@@ -3,13 +3,13 @@
 
 #include <array>
 #include <vector>
-#include "vector3d.hpp"
+#include "geometry/vector3d.hpp"
 
 
 struct Source
 {
     Vector3D position;
-    double mass;
+    float mass;
 };
 
 
@@ -17,10 +17,10 @@ struct OctreeNode
 {
     // Geometrical properties
     Vector3D center;    // Node center
-    double half_size;   // Half side length
+    float half_size;   // Half side length
 
     // Physical properties
-    double total_mass;      // Total mass
+    float total_mass;      // Total mass
     Vector3D mass_center;   // Mass center
 
     // Tree structure
@@ -32,7 +32,7 @@ struct OctreeNode
 
     OctreeNode(
         const Vector3D& c,
-        double h
+        float h
     );
 };
 
@@ -52,16 +52,16 @@ public:
      */
     Octree(
         const std::vector<Source>& sources,
-        double half_size,
-        double max_mass,
-        double min_size
+        float half_size,
+        float max_mass,
+        float min_size
     );
 
     // Compute radiation field contribution at a point.
     // The opening_angle controls the Barnes-Hut accuracy.
-    double evaluate(
+    float evaluate(
         const Vector3D& position,
-        double opening_angle
+        float opening_angle
     ) const;
 
 
@@ -85,7 +85,7 @@ private:
     int root_index_;
 
     // Half-size of the root cube [Mpc]
-    double half_size_;
+    float half_size_;
 
     // Maximum total mass allowed in a leaf
     int max_mass_;
@@ -122,14 +122,14 @@ private:
     );
 
     // Recursive Barnes-Hut evaluation.
-    double evaluate_recursive(
+    float evaluate_recursive(
         int node_index,
         const Vector3D& position,
-        double opening_angle
+        float opening_angle
     ) const;
 
     // Distance between two points.
-    double distance(
+    float distance(
         const Vector3D& a,
         const Vector3D& b
     ) const;

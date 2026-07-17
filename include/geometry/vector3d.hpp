@@ -9,28 +9,28 @@ class Vector3D
 {
 public:
 
-    double x;
-    double y;
-    double z;
+    float x;
+    float y;
+    float z;
 
     Vector3D();
 
     Vector3D(
-        double x_,
-        double y_,
-        double z_
+        float x_,
+        float y_,
+        float z_
     );
 
-    double norm() const;
-    double norm2() const;
-    double dot(const Vector3D& other) const;
+    float norm() const;
+    float norm2() const;
+    float dot(const Vector3D& other) const;
 
     Vector3D operator+(const Vector3D& other) const;
     Vector3D operator-(const Vector3D& other) const;
     Vector3D& operator+=(const Vector3D& other);
     
-    Vector3D operator*(double scalar) const;
-    Vector3D operator/(double scalar) const;
+    Vector3D operator*(float scalar) const;
+    Vector3D operator/(float scalar) const;
 
     friend std::ostream& operator<<(
         std::ostream& os,
