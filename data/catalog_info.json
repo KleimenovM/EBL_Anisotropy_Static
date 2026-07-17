@@ -1,0 +1,9 @@
+{
+    "Biteau2021": {
+        "file_path": "table5_biteau2021.txt",
+        "description": "Revised MANGROVE Sample above the 2MPZ Sensitivity Limit Including Clones in the ZoA",
+        "source": "https://content.cld.iop.org/journals/0067-0049/256/1/15/revision2/apjsac09f5t5_mrt.txt",
+        "reference": "10.3847/1538-4365/ac09f5",
+        "header": ["Name", "RA", "Dec", "GLON", "GLAT", "flag_asso", "distL", "r_distL", "Mstar", "r_Mstar", "cNm", "SFR", "r_SFR", "cNs", "PGC", "AllWISE", "IDX"]
+    }
+}

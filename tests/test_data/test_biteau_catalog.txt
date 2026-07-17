@@ -1,0 +1,47 @@
+Title: Stellar Mass and Star Formation Rate within a Billion Light-Years 
+Authors: Biteau J. 
+Table: Revised MANGROVE sample above the 2MPZ sensitivity limit including 
+    clones (Name='clone') in the Zone of Avoidance
+================================================================================
+Byte-by-byte Description of file: apjsac09f5t5_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units Label  Explanations
+--------------------------------------------------------------------------------
+   1- 29 A29    ---         Name        Galaxy designation (1)
+  31- 37 F7.3   deg         RAJ2000     [0.0/360.0] Right Ascension (J2000)
+  39- 45 F7.3   deg         DEJ2000     [-89.78/89.65] Declination (J2000)
+  47- 53 F7.3   deg         GLON        [0.0/360.0] Galactic latitude
+  55- 61 F7.3   deg         GLAT        [-89.93/89.97] Galactic longitude
+  63- 63 I1     ---         flag_asso   [1/2] Association flag (2)
+  65- 72 F8.2   Mpc         distL       [0.02/16904.41] Luminosity distance
+  74- 74 I1     ---       r_distL       [1/6] Distance reference flag (3)
+  76- 80 F5.2   [Msun]      Mstar       [2.97/14.19] Stellar mass
+  82- 82 I1     ---       r_Mstar       [0/1] Mass reference flag (4)
+  84- 88 F5.3   ---         cNm         [0.0/1.0] Mass incompleteness correction
+  90- 94 F5.2   [Msun/yr]   SFR         [-9.86/4.53] Star formation rate (SFR)
+  96- 96 I1     ---       r_SFR         [0/5] SFR reference flag (5)
+  98-102 F5.3   ---         cNs         [0.0/0.99] SFR incompleteness correction
+ 104-110 I7     ---         PGC         [2/6775358]?  HyperLEDA PGC number
+ 112-130 A19    ---         AllWISE     AllWISE id.
+ 132-138 I7     ---         IDX         [0/2965852]? GLADE id.
+--------------------------------------------------------------------------------
+Note (1): Clones are marked as "clones" in the Name field.
+Note (2): Association flag -- 1: Robust; 2: tentative
+Note (3): Luminosity Distance reference --
+    1 = 2MPZ photometric estimates from GLADE;
+    2 = spectroscopic estimates only included in GLADE;
+    3 = 2MRS spectroscopic estimates only included in GLADE;
+    4 = LV distances;
+    5 = spectroscopic estimates from HyperLEDA;
+    6 = cosmic-ladder estimates from HyperLEDA;
+Note (4): Association flag -- 0: LV sample; 1: MANGROVE sample.
+Note (5): Association flag --
+    0 =  H{alpha}-based estimate;
+    1 = objects with LV morphology;
+    2 = objects with H{alpha} lower limit;
+    3 = objects with H{alpha} upper limit;
+    4 = objects with HyperLEDA morphology;
+    5 = objects with no morphological type.
+--------------------------------------------------------------------------------
+NGC0253                        11.893 -25.292  97.435 -87.970 1     3.70 4 10.76 0 0.997  0.26 0 0.913    2789 J004733.14-251717.7       0 
+NGC5128                       201.370 -43.017 309.520  19.419 1     3.68 4 10.67 0 0.997 -0.06 0 0.913   46957 J132527.62-430109.1       1 
