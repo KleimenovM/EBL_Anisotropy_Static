@@ -2,17 +2,17 @@ Node 0
 center = (0, 0, 0)
 half_size = 400
 mass = 6.39024e+12
-mass_center = (20.5668, -18.7088, -9.84831)
+mass_center = (-19.1614, 17.8816, 8.84225)
 leaf = false
 
   Node 1
   center = (-200, -200, -200)
   half_size = 200
-  mass = 5.09755e+11
-  mass_center = (-189.152, -108.374, -166.349)
+  mass = 6.41702e+11
+  mass_center = (-114.117, -136.956, -123.585)
   leaf = false
 
-    Node 153
+    Node 105
     center = (-300, -300, -300)
     half_size = 100
     mass = 0
@@ -20,7 +20,7 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 154
+    Node 106
     center = (-100, -300, -300)
     half_size = 100
     mass = 0
@@ -28,7 +28,7 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 155
+    Node 107
     center = (-300, -100, -300)
     half_size = 100
     mass = 0
@@ -36,14 +36,14 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 156
+    Node 108
     center = (-100, -100, -300)
     half_size = 100
-    mass = 1.55553e+11
-    mass_center = (-152.657, -78.0593, -293.889)
+    mass = 1.43532e+11
+    mass_center = (-80.0987, -41.9113, -226.892)
     leaf = false
 
-      Node 417
+      Node 585
       center = (-150, -150, -350)
       half_size = 50
       mass = 0
@@ -51,7 +51,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 418
+      Node 586
       center = (-50, -150, -350)
       half_size = 50
       mass = 0
@@ -59,15 +59,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 419
+      Node 587
       center = (-150, -50, -350)
       half_size = 50
-      mass = 1.14815e+11
-      mass_center = (-190.062, -43.2972, -312.685)
+      mass = 0
+      mass_center = (0, 0, 0)
       leaf = true
-      sources: 27 
+      sources: 
 
-      Node 420
+      Node 588
       center = (-50, -50, -350)
       half_size = 50
       mass = 0
@@ -75,23 +75,23 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 421
+      Node 589
       center = (-150, -150, -250)
+      half_size = 50
+      mass = 3.38844e+10
+      mass_center = (-162.789, -113.819, -207.446)
+      leaf = true
+      sources: 126 
+
+      Node 590
+      center = (-50, -150, -250)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 422
-      center = (-50, -150, -250)
-      half_size = 50
-      mass = 4.0738e+10
-      mass_center = (-47.235, -176.032, -240.915)
-      leaf = true
-      sources: 93 
-
-      Node 423
+      Node 591
       center = (-150, -50, -250)
       half_size = 50
       mass = 0
@@ -99,15 +99,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 424
+      Node 592
       center = (-50, -50, -250)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 1.09648e+11
+      mass_center = (-54.545, -19.6896, -232.902)
       leaf = true
-      sources: 
+      sources: 65 
 
-    Node 157
+    Node 109
     center = (-300, -300, -100)
     half_size = 100
     mass = 0
@@ -115,22 +115,148 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 158
+    Node 110
     center = (-100, -300, -100)
     half_size = 100
-    mass = 3.98108e+10
-    mass_center = (-27.5305, -241.164, -180.706)
-    leaf = true
-    sources: 92 
-
-    Node 159
-    center = (-300, -100, -100)
-    half_size = 100
-    mass = 2.14463e+11
-    mass_center = (-311.902, -102.064, -106.116)
+    mass = 1.61194e+11
+    mass_center = (-93.1225, -280.812, -76.9197)
     leaf = false
 
-      Node 457
+      Node 521
+      center = (-150, -350, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 522
+      center = (-50, -350, -150)
+      half_size = 50
+      mass = 5.49541e+10
+      mass_center = (-37.1144, -314.779, -128.252)
+      leaf = true
+      sources: 103 
+
+      Node 523
+      center = (-150, -250, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 524
+      center = (-50, -250, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 525
+      center = (-150, -350, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 526
+      center = (-50, -350, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 527
+      center = (-150, -250, -50)
+      half_size = 50
+      mass = 1.0624e+11
+      mass_center = (-122.093, -263.242, -50.3675)
+      leaf = false
+
+        Node 545
+        center = (-175, -275, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 546
+        center = (-125, -275, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 547
+        center = (-175, -225, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 548
+        center = (-125, -225, -75)
+        half_size = 25
+        mass = 5.49541e+10
+        mass_center = (-137.189, -239.236, -57.7367)
+        leaf = true
+        sources: 111 
+
+        Node 549
+        center = (-175, -275, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 550
+        center = (-125, -275, -25)
+        half_size = 25
+        mass = 5.12861e+10
+        mass_center = (-105.918, -288.965, -42.4713)
+        leaf = true
+        sources: 118 
+
+        Node 551
+        center = (-175, -225, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 552
+        center = (-125, -225, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 528
+      center = (-50, -250, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 111
+    center = (-300, -100, -100)
+    half_size = 100
+    mass = 8.13372e+10
+    mass_center = (-226.942, -149.074, -72.1417)
+    leaf = false
+
+      Node 473
       center = (-350, -150, -150)
       half_size = 50
       mass = 0
@@ -138,1103 +264,8 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 458
-      center = (-250, -150, -150)
-      half_size = 50
-      mass = 1.10375e+11
-      mass_center = (-286.138, -131.566, -159.186)
-      leaf = false
-
-        Node 465
-        center = (-275, -175, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 466
-        center = (-225, -175, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 467
-        center = (-275, -125, -175)
-        half_size = 25
-        mass = 6.02559e+10
-        mass_center = (-282.662, -102.728, -183.652)
-        leaf = true
-        sources: 99 
-
-        Node 468
-        center = (-225, -125, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 469
-        center = (-275, -175, -125)
-        half_size = 25
-        mass = 5.01187e+10
-        mass_center = (-290.316, -166.237, -129.771)
-        leaf = true
-        sources: 109 
-
-        Node 470
-        center = (-225, -175, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 471
-        center = (-275, -125, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 472
-        center = (-225, -125, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 459
-      center = (-350, -50, -150)
-      half_size = 50
-      mass = 3.80189e+10
-      mass_center = (-332.807, -11.1022, -107.224)
-      leaf = true
-      sources: 116 
-
-      Node 460
-      center = (-250, -50, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 461
-      center = (-350, -150, -50)
-      half_size = 50
-      mass = 6.60693e+10
-      mass_center = (-342.915, -105.122, -16.8198)
-      leaf = true
-      sources: 114 
-
-      Node 462
-      center = (-250, -150, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 463
-      center = (-350, -50, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 464
-      center = (-250, -50, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 160
-    center = (-100, -100, -100)
-    half_size = 100
-    mass = 9.99279e+10
-    mass_center = (-46.9054, -116.2, -91.366)
-    leaf = false
-
-      Node 161
-      center = (-150, -150, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 162
-      center = (-50, -150, -150)
-      half_size = 50
-      mass = 2.88403e+10
-      mass_center = (-12.9974, -166.612, -190.947)
-      leaf = true
-      sources: 33 
-
-      Node 163
-      center = (-150, -50, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 164
-      center = (-50, -50, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 165
-      center = (-150, -150, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 166
-      center = (-50, -150, -50)
-      half_size = 50
-      mass = 4.16869e+10
-      mass_center = (-44.8977, -146.417, -50.6031)
-      leaf = true
-      sources: 30 
-
-      Node 167
-      center = (-150, -50, -50)
-      half_size = 50
-      mass = 1.31826e+10
-      mass_center = (-110.907, -14.5618, -47.3294)
-      leaf = true
-      sources: 58 
-
-      Node 168
-      center = (-50, -50, -50)
-      half_size = 50
-      mass = 1.62181e+10
-      mass_center = (-60.341, -31.4991, -54.8546)
-      leaf = true
-      sources: 9 
-
-  Node 2
-  center = (200, -200, -200)
-  half_size = 200
-  mass = 7.74602e+11
-  mass_center = (173.187, -111.132, -145.613)
-  leaf = false
-
-    Node 81
-    center = (100, -300, -300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 82
-    center = (300, -300, -300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 83
-    center = (100, -100, -300)
-    half_size = 100
-    mass = 1.06172e+11
-    mass_center = (90.6121, -132.358, -263.989)
-    leaf = false
-
-      Node 409
-      center = (50, -150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 410
-      center = (150, -150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 411
-      center = (50, -50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 412
-      center = (150, -50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 413
-      center = (50, -150, -250)
-      half_size = 50
-      mass = 3.16228e+10
-      mass_center = (12.7349, -138.866, -273.108)
-      leaf = true
-      sources: 112 
-
-      Node 414
-      center = (150, -150, -250)
-      half_size = 50
-      mass = 4.57088e+10
-      mass_center = (117.558, -189.257, -267.592)
-      leaf = true
-      sources: 91 
-
-      Node 415
-      center = (50, -50, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 416
-      center = (150, -50, -250)
-      half_size = 50
-      mass = 2.88403e+10
-      mass_center = (133.296, -35.0429, -248.28)
-      leaf = true
-      sources: 35 
-
-    Node 84
-    center = (300, -100, -300)
-    half_size = 100
-    mass = 1.53564e+11
-    mass_center = (257.005, -130.935, -235.25)
-    leaf = false
-
-      Node 393
-      center = (250, -150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 394
-      center = (350, -150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 395
-      center = (250, -50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 396
-      center = (350, -50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 397
-      center = (250, -150, -250)
-      half_size = 50
-      mass = 1.53564e+11
-      mass_center = (257.005, -130.935, -235.25)
-      leaf = false
-
-        Node 401
-        center = (225, -175, -275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 402
-        center = (275, -175, -275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 403
-        center = (225, -125, -275)
-        half_size = 25
-        mass = 7.4131e+10
-        mass_center = (233.411, -126.691, -261.157)
-        leaf = true
-        sources: 90 
-
-        Node 404
-        center = (275, -125, -275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 405
-        center = (225, -175, -225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 406
-        center = (275, -175, -225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 407
-        center = (225, -125, -225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 408
-        center = (275, -125, -225)
-        half_size = 25
-        mass = 7.94328e+10
-        mass_center = (279.024, -134.895, -211.073)
-        leaf = true
-        sources: 81 
-
-      Node 398
-      center = (350, -150, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 399
-      center = (250, -50, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 400
-      center = (350, -50, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 85
-    center = (100, -300, -100)
-    half_size = 100
-    mass = 2.81838e+10
-    mass_center = (54.0178, -205.795, -38.2634)
-    leaf = true
-    sources: 52 
-
-    Node 86
-    center = (300, -300, -100)
-    half_size = 100
-    mass = 7.94328e+10
-    mass_center = (259.701, -203.066, -66.9168)
-    leaf = true
-    sources: 122 
-
-    Node 87
-    center = (100, -100, -100)
-    half_size = 100
-    mass = 2.53023e+11
-    mass_center = (100.506, -57.5506, -135.335)
-    leaf = false
-
-      Node 89
-      center = (50, -150, -150)
-      half_size = 50
-      mass = 2.08929e+10
-      mass_center = (94.8581, -150.821, -161.734)
-      leaf = true
-      sources: 34 
-
-      Node 90
-      center = (150, -150, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 91
-      center = (50, -50, -150)
-      half_size = 50
-      mass = 8.45985e+10
-      mass_center = (83.0045, -51.8546, -149.319)
-      leaf = false
-
-        Node 145
-        center = (25, -75, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 146
-        center = (75, -75, -175)
-        half_size = 25
-        mass = 7.07946e+10
-        mass_center = (88.2526, -60.6762, -150.553)
-        leaf = true
-        sources: 20 
-
-        Node 147
-        center = (25, -25, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 148
-        center = (75, -25, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 149
-        center = (25, -75, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 150
-        center = (75, -75, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 151
-        center = (25, -25, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 152
-        center = (75, -25, -125)
-        half_size = 25
-        mass = 1.38039e+10
-        mass_center = (56.0893, -6.61204, -142.99)
-        leaf = true
-        sources: 22 
-
-      Node 92
-      center = (150, -50, -150)
-      half_size = 50
-      mass = 1.06337e+11
-      mass_center = (133.29, -35.3992, -153.145)
-      leaf = false
-
-        Node 305
-        center = (125, -75, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 306
-        center = (175, -75, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 307
-        center = (125, -25, -175)
-        half_size = 25
-        mass = 6.91831e+10
-        mass_center = (118.995, -30.848, -165.264)
-        leaf = true
-        sources: 24 
-
-        Node 308
-        center = (175, -25, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 309
-        center = (125, -75, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 310
-        center = (175, -75, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 311
-        center = (125, -25, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 312
-        center = (175, -25, -125)
-        half_size = 25
-        mass = 3.71535e+10
-        mass_center = (159.908, -43.8738, -130.579)
-        leaf = true
-        sources: 66 
-
-      Node 93
-      center = (50, -150, -50)
-      half_size = 50
-      mass = 1.99526e+10
-      mass_center = (76.1756, -140.253, -67.5213)
-      leaf = true
-      sources: 23 
-
-      Node 94
-      center = (150, -150, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 95
-      center = (50, -50, -50)
-      half_size = 50
-      mass = 2.12426e+10
-      mass_center = (34.4996, -21.7053, -28.2238)
-      leaf = false
-
-        Node 97
-        center = (25, -75, -75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 98
-        center = (75, -75, -75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 99
-        center = (25, -25, -75)
-        half_size = 25
-        mass = 5.7544e+09
-        mass_center = (6.67787, -39.5501, -72.9047)
-        leaf = true
-        sources: 11 
-
-        Node 100
-        center = (75, -25, -75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 101
-        center = (25, -75, -25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 102
-        center = (75, -75, -25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 103
-        center = (25, -25, -25)
-        half_size = 25
-        mass = 1.54882e+10
-        mass_center = (44.8364, -15.0753, -11.6232)
-        leaf = true
-        sources: 3 
-
-        Node 104
-        center = (75, -25, -25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 96
-      center = (150, -50, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 88
-    center = (300, -100, -100)
-    half_size = 100
-    mass = 1.54226e+11
-    mass_center = (243.035, -100.062, -51.8778)
-    leaf = false
-
-      Node 329
-      center = (250, -150, -150)
-      half_size = 50
-      mass = 5.88844e+10
-      mass_center = (285.733, -126.958, -106.907)
-      leaf = true
-      sources: 108 
-
-      Node 330
-      center = (350, -150, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 331
-      center = (250, -50, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 332
-      center = (350, -50, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 333
-      center = (250, -150, -50)
-      half_size = 50
-      mass = 2.45471e+10
-      mass_center = (219.792, -128.297, -52.1253)
-      leaf = true
-      sources: 68 
-
-      Node 334
-      center = (350, -150, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 335
-      center = (250, -50, -50)
-      half_size = 50
-      mass = 7.07946e+10
-      mass_center = (215.58, -67.9001, -6.02059)
-      leaf = true
-      sources: 43 
-
-      Node 336
-      center = (350, -50, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-  Node 3
-  center = (-200, 200, -200)
-  half_size = 200
-  mass = 6.9305e+11
-  mass_center = (-122.494, 117.396, -162.659)
-  leaf = false
-
-    Node 9
-    center = (-300, 100, -300)
-    half_size = 100
-    mass = 6.60693e+10
-    mass_center = (-248.262, 125.859, -239.349)
-    leaf = true
-    sources: 115 
-
-    Node 10
-    center = (-100, 100, -300)
-    half_size = 100
-    mass = 1.46086e+11
-    mass_center = (-146.815, 87.8617, -285.694)
-    leaf = false
-
-      Node 369
-      center = (-150, 50, -350)
-      half_size = 50
-      mass = 1.12202e+11
-      mass_center = (-159.945, 89.025, -301.853)
-      leaf = true
-      sources: 73 
-
-      Node 370
-      center = (-50, 50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 371
-      center = (-150, 150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 372
-      center = (-50, 150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 373
-      center = (-150, 50, -250)
-      half_size = 50
-      mass = 3.38844e+10
-      mass_center = (-103.334, 84.0098, -232.189)
-      leaf = true
-      sources: 86 
-
-      Node 374
-      center = (-50, 50, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 375
-      center = (-150, 150, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 376
-      center = (-50, 150, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 11
-    center = (-300, 300, -300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 12
-    center = (-100, 300, -300)
-    half_size = 100
-    mass = 5.12861e+10
-    mass_center = (-159.01, 244.793, -230.083)
-    leaf = true
-    sources: 101 
-
-    Node 13
-    center = (-300, 100, -100)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 14
-    center = (-100, 100, -100)
-    half_size = 100
-    mass = 3.19887e+11
-    mass_center = (-63.1701, 75.1815, -78.3305)
-    leaf = false
-
-      Node 17
-      center = (-150, 50, -150)
-      half_size = 50
-      mass = 2.29087e+10
-      mass_center = (-111.927, 4.38613, -155.668)
-      leaf = true
-      sources: 28 
-
-      Node 18
-      center = (-50, 50, -150)
-      half_size = 50
-      mass = 3.80189e+10
-      mass_center = (-25.831, 17.1566, -185.354)
-      leaf = true
-      sources: 84 
-
-      Node 19
-      center = (-150, 150, -150)
-      half_size = 50
-      mass = 2.95121e+10
-      mass_center = (-188.947, 197.145, -119.618)
-      leaf = true
-      sources: 102 
-
-      Node 20
-      center = (-50, 150, -150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 21
-      center = (-150, 50, -50)
-      half_size = 50
-      mass = 1.44544e+10
-      mass_center = (-111.301, 76.7898, -17.4386)
-      leaf = true
-      sources: 46 
-
-      Node 22
-      center = (-50, 50, -50)
-      half_size = 50
-      mass = 1.62512e+11
-      mass_center = (-39.5964, 38.6913, -54.8169)
-      leaf = false
-
-        Node 25
-        center = (-75, 25, -75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 26
-        center = (-25, 25, -75)
-        half_size = 25
-        mass = 7.24435e+09
-        mass_center = (-30.9723, 11.6406, -71.0979)
-        leaf = true
-        sources: 10 
-
-        Node 27
-        center = (-75, 75, -75)
-        half_size = 25
-        mass = 9.77237e+10
-        mass_center = (-63.5418, 63.4033, -83.7112)
-        leaf = true
-        sources: 2 
-
-        Node 28
-        center = (-25, 75, -75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 29
-        center = (-75, 25, -25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 30
-        center = (-25, 25, -25)
-        half_size = 25
-        mass = 5.7544e+10
-        mass_center = (-0.0169758, 0.130004, -3.69768)
-        leaf = true
-        sources: 0 
-
-        Node 31
-        center = (-75, 75, -25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 32
-        center = (-25, 75, -25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 23
-      center = (-150, 150, -50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 24
-      center = (-50, 150, -50)
-      half_size = 50
-      mass = 5.24808e+10
-      mass_center = (-57.9495, 192.087, -33.4051)
-      leaf = true
-      sources: 44 
-
-    Node 15
-    center = (-300, 300, -100)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 16
-    center = (-100, 300, -100)
-    half_size = 100
-    mass = 1.09721e+11
-    mass_center = (-170.267, 215.153, -167.01)
-    leaf = false
-
-      Node 473
-      center = (-150, 250, -150)
-      half_size = 50
-      mass = 1.09721e+11
-      mass_center = (-170.267, 215.153, -167.01)
-      leaf = false
-
-        Node 481
-        center = (-175, 225, -175)
-        half_size = 25
-        mass = 6.60693e+10
-        mass_center = (-197.372, 208.195, -154.291)
-        leaf = true
-        sources: 110 
-
-        Node 482
-        center = (-125, 225, -175)
-        half_size = 25
-        mass = 4.36516e+10
-        mass_center = (-129.243, 225.683, -186.261)
-        leaf = true
-        sources: 78 
-
-        Node 483
-        center = (-175, 275, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 484
-        center = (-125, 275, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 485
-        center = (-175, 225, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 486
-        center = (-125, 225, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 487
-        center = (-175, 275, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 488
-        center = (-125, 275, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
       Node 474
-      center = (-50, 250, -150)
+      center = (-250, -150, -150)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
@@ -1242,7 +273,7 @@ leaf = false
       sources: 
 
       Node 475
-      center = (-150, 350, -150)
+      center = (-350, -50, -150)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
@@ -1250,7 +281,7 @@ leaf = false
       sources: 
 
       Node 476
-      center = (-50, 350, -150)
+      center = (-250, -50, -150)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
@@ -1258,7 +289,7 @@ leaf = false
       sources: 
 
       Node 477
-      center = (-150, 250, -50)
+      center = (-350, -150, -50)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
@@ -1266,15 +297,78 @@ leaf = false
       sources: 
 
       Node 478
-      center = (-50, 250, -50)
+      center = (-250, -150, -50)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
+      mass = 8.13372e+10
+      mass_center = (-226.942, -149.074, -72.1417)
+      leaf = false
+
+        Node 481
+        center = (-275, -175, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 482
+        center = (-225, -175, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 483
+        center = (-275, -125, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 484
+        center = (-225, -125, -75)
+        half_size = 25
+        mass = 4.89778e+10
+        mass_center = (-204.975, -149.322, -88.668)
+        leaf = true
+        sources: 105 
+
+        Node 485
+        center = (-275, -175, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 486
+        center = (-225, -175, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 487
+        center = (-275, -125, -25)
+        half_size = 25
+        mass = 3.23594e+10
+        mass_center = (-260.191, -148.699, -47.1281)
+        leaf = true
+        sources: 100 
+
+        Node 488
+        center = (-225, -125, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
 
       Node 479
-      center = (-150, 350, -50)
+      center = (-350, -50, -50)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
@@ -1282,6 +376,1731 @@ leaf = false
       sources: 
 
       Node 480
+      center = (-250, -50, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 112
+    center = (-100, -100, -100)
+    half_size = 100
+    mass = 2.55639e+11
+    mass_center = (-110.557, -95.7559, -111.373)
+    leaf = false
+
+      Node 113
+      center = (-150, -150, -150)
+      half_size = 50
+      mass = 1.06107e+11
+      mass_center = (-151.357, -136.982, -110.867)
+      leaf = false
+
+        Node 209
+        center = (-175, -175, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 210
+        center = (-125, -175, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 211
+        center = (-175, -125, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 212
+        center = (-125, -125, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 213
+        center = (-175, -175, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 214
+        center = (-125, -175, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 215
+        center = (-175, -125, -125)
+        half_size = 25
+        mass = 8.91251e+10
+        mass_center = (-158.399, -142.412, -109.181)
+        leaf = true
+        sources: 39 
+
+        Node 216
+        center = (-125, -125, -125)
+        half_size = 25
+        mass = 1.69824e+10
+        mass_center = (-114.398, -108.484, -119.715)
+        leaf = true
+        sources: 13 
+
+      Node 114
+      center = (-50, -150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 115
+      center = (-150, -50, -150)
+      half_size = 50
+      mass = 4.99357e+10
+      mass_center = (-117.422, -14.6923, -138.905)
+      leaf = false
+
+        Node 121
+        center = (-175, -75, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 122
+        center = (-125, -75, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 123
+        center = (-175, -25, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 124
+        center = (-125, -25, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 125
+        center = (-175, -75, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 126
+        center = (-125, -75, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 127
+        center = (-175, -25, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 128
+        center = (-125, -25, -125)
+        half_size = 25
+        mass = 4.99357e+10
+        mass_center = (-117.422, -14.6923, -138.905)
+        leaf = false
+
+          Node 129
+          center = (-137.5, -37.5, -137.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 130
+          center = (-112.5, -37.5, -137.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 131
+          center = (-137.5, -12.5, -137.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 132
+          center = (-112.5, -12.5, -137.5)
+          half_size = 12.5
+          mass = 4.99357e+10
+          mass_center = (-117.422, -14.6923, -138.905)
+          leaf = false
+
+            Node 137
+            center = (-118.75, -18.75, -143.75)
+            half_size = 6.25
+            mass = 1.44544e+10
+            mass_center = (-118.845, -18.2199, -148.325)
+            leaf = true
+            sources: 12 
+
+            Node 138
+            center = (-106.25, -18.75, -143.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 139
+            center = (-118.75, -6.25, -143.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 140
+            center = (-106.25, -6.25, -143.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 141
+            center = (-118.75, -18.75, -131.25)
+            half_size = 6.25
+            mass = 3.54814e+10
+            mass_center = (-116.843, -13.2551, -135.068)
+            leaf = true
+            sources: 15 
+
+            Node 142
+            center = (-106.25, -18.75, -131.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 143
+            center = (-118.75, -6.25, -131.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 144
+            center = (-106.25, -6.25, -131.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+          Node 133
+          center = (-137.5, -37.5, -112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 134
+          center = (-112.5, -37.5, -112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 135
+          center = (-137.5, -12.5, -112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 136
+          center = (-112.5, -12.5, -112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+      Node 116
+      center = (-50, -50, -150)
+      half_size = 50
+      mass = 2.87927e+10
+      mass_center = (-90.4488, -44.5628, -150.604)
+      leaf = false
+
+        Node 329
+        center = (-75, -75, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 330
+        center = (-25, -75, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 331
+        center = (-75, -25, -175)
+        half_size = 25
+        mass = 2.13796e+10
+        mass_center = (-88.7261, -37.0286, -166.331)
+        leaf = true
+        sources: 64 
+
+        Node 332
+        center = (-25, -25, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 333
+        center = (-75, -75, -125)
+        half_size = 25
+        mass = 7.4131e+09
+        mass_center = (-95.417, -66.2915, -105.247)
+        leaf = true
+        sources: 29 
+
+        Node 334
+        center = (-25, -75, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 335
+        center = (-75, -25, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 336
+        center = (-25, -25, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 117
+      center = (-150, -150, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 118
+      center = (-50, -150, -50)
+      half_size = 50
+      mass = 2.88403e+10
+      mass_center = (-82.6531, -144.642, -70.7704)
+      leaf = true
+      sources: 40 
+
+      Node 119
+      center = (-150, -50, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 120
+      center = (-50, -50, -50)
+      half_size = 50
+      mass = 4.19626e+10
+      mass_center = (-32.1967, -89.505, -80.8789)
+      leaf = false
+
+        Node 257
+        center = (-75, -75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 258
+        center = (-25, -75, -75)
+        half_size = 25
+        mass = 3.71535e+10
+        mass_center = (-34.9953, -93.5298, -90.1665)
+        leaf = true
+        sources: 14 
+
+        Node 259
+        center = (-75, -25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 260
+        center = (-25, -25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 261
+        center = (-75, -75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 262
+        center = (-25, -75, -25)
+        half_size = 25
+        mass = 4.80912e+09
+        mass_center = (-10.5759, -58.4108, -9.12621)
+        leaf = false
+
+          Node 305
+          center = (-37.5, -87.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 306
+          center = (-12.5, -87.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 307
+          center = (-37.5, -62.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 308
+          center = (-12.5, -62.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 309
+          center = (-37.5, -87.5, -12.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 310
+          center = (-12.5, -87.5, -12.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 311
+          center = (-37.5, -62.5, -12.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 312
+          center = (-12.5, -62.5, -12.5)
+          half_size = 12.5
+          mass = 4.80912e+09
+          mass_center = (-10.5759, -58.4108, -9.12621)
+          leaf = false
+
+            Node 313
+            center = (-18.75, -68.75, -18.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 314
+            center = (-6.25, -68.75, -18.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 315
+            center = (-18.75, -56.25, -18.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 316
+            center = (-6.25, -56.25, -18.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 317
+            center = (-18.75, -68.75, -6.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 318
+            center = (-6.25, -68.75, -6.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 319
+            center = (-18.75, -56.25, -6.25)
+            half_size = 6.25
+            mass = 2.23872e+09
+            mass_center = (-13.4675, -62.1391, -7.56309)
+            leaf = true
+            sources: 61 
+
+            Node 320
+            center = (-6.25, -56.25, -6.25)
+            half_size = 6.25
+            mass = 2.57039e+09
+            mass_center = (-8.05743, -55.1635, -10.4876)
+            leaf = true
+            sources: 56 
+
+        Node 263
+        center = (-75, -25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 264
+        center = (-25, -25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+  Node 2
+  center = (200, -200, -200)
+  half_size = 200
+  mass = 3.71098e+11
+  mass_center = (181.357, -118.314, -138.41)
+  leaf = false
+
+    Node 185
+    center = (100, -300, -300)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 186
+    center = (300, -300, -300)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 187
+    center = (100, -100, -300)
+    half_size = 100
+    mass = 6.20682e+10
+    mass_center = (36.6272, -98.0774, -246.894)
+    leaf = false
+
+      Node 377
+      center = (50, -150, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 378
+      center = (150, -150, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 379
+      center = (50, -50, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 380
+      center = (150, -50, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 381
+      center = (50, -150, -250)
+      half_size = 50
+      mass = 3.38844e+10
+      mass_center = (4.42118, -172.719, -219.682)
+      leaf = true
+      sources: 77 
+
+      Node 382
+      center = (150, -150, -250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 383
+      center = (50, -50, -250)
+      half_size = 50
+      mass = 2.81838e+10
+      mass_center = (75.3474, -8.3379, -279.611)
+      leaf = true
+      sources: 72 
+
+      Node 384
+      center = (150, -50, -250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 188
+    center = (300, -100, -300)
+    half_size = 100
+    mass = 8.91251e+10
+    mass_center = (289.844, -93.4193, -217.761)
+    leaf = true
+    sources: 88 
+
+    Node 189
+    center = (100, -300, -100)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 190
+    center = (300, -300, -100)
+    half_size = 100
+    mass = 5.62341e+10
+    mass_center = (210.223, -212.729, -158.674)
+    leaf = true
+    sources: 104 
+
+    Node 191
+    center = (100, -100, -100)
+    half_size = 100
+    mass = 1.27363e+11
+    mass_center = (137.034, -129.149, -59.0445)
+    leaf = false
+
+      Node 193
+      center = (50, -150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 194
+      center = (150, -150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 195
+      center = (50, -50, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 196
+      center = (150, -50, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 197
+      center = (50, -150, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 198
+      center = (150, -150, -50)
+      half_size = 50
+      mass = 8.57998e+10
+      mass_center = (164.315, -168.378, -67.2481)
+      leaf = false
+
+        Node 273
+        center = (125, -175, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 274
+        center = (175, -175, -75)
+        half_size = 25
+        mass = 5.88844e+10
+        mass_center = (150.716, -173.949, -84.1479)
+        leaf = true
+        sources: 42 
+
+        Node 275
+        center = (125, -125, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 276
+        center = (175, -125, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 277
+        center = (125, -175, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 278
+        center = (175, -175, -25)
+        half_size = 25
+        mass = 2.69154e+10
+        mass_center = (194.066, -156.189, -30.2754)
+        leaf = true
+        sources: 59 
+
+        Node 279
+        center = (125, -125, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 280
+        center = (175, -125, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 199
+      center = (50, -50, -50)
+      half_size = 50
+      mass = 1.7205e+10
+      mass_center = (22.9423, -80.8849, -17.7959)
+      leaf = false
+
+        Node 265
+        center = (25, -75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 266
+        center = (75, -75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 267
+        center = (25, -25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 268
+        center = (75, -25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 269
+        center = (25, -75, -25)
+        half_size = 25
+        mass = 1.34896e+10
+        mass_center = (17.538, -93.7485, -14.2845)
+        leaf = true
+        sources: 57 
+
+        Node 270
+        center = (75, -75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 271
+        center = (25, -25, -25)
+        half_size = 25
+        mass = 3.71535e+09
+        mass_center = (42.5643, -34.1798, -30.5451)
+        leaf = true
+        sources: 32 
+
+        Node 272
+        center = (75, -25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 200
+      center = (150, -50, -50)
+      half_size = 50
+      mass = 2.43584e+10
+      mass_center = (121.526, -25.0586, -59.283)
+      leaf = false
+
+        Node 217
+        center = (125, -75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 218
+        center = (175, -75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 219
+        center = (125, -25, -75)
+        half_size = 25
+        mass = 7.76248e+09
+        mass_center = (128.914, -14.6417, -96.1895)
+        leaf = true
+        sources: 17 
+
+        Node 220
+        center = (175, -25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 221
+        center = (125, -75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 222
+        center = (175, -75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 223
+        center = (125, -25, -25)
+        half_size = 25
+        mass = 1.65959e+10
+        mass_center = (118.07, -29.9309, -42.0205)
+        leaf = true
+        sources: 41 
+
+        Node 224
+        center = (175, -25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+    Node 192
+    center = (300, -100, -100)
+    half_size = 100
+    mass = 3.63078e+10
+    mass_center = (273.243, -29.7749, -5.19754)
+    leaf = true
+    sources: 113 
+
+  Node 3
+  center = (-200, 200, -200)
+  half_size = 200
+  mass = 1.09573e+12
+  mass_center = (-133.771, 127.246, -132.425)
+  leaf = false
+
+    Node 49
+    center = (-300, 100, -300)
+    half_size = 100
+    mass = 6.45655e+10
+    mass_center = (-261.313, 131.083, -209.428)
+    leaf = true
+    sources: 96 
+
+    Node 50
+    center = (-100, 100, -300)
+    half_size = 100
+    mass = 1.93771e+11
+    mass_center = (-58.4939, 49.5458, -342.521)
+    leaf = false
+
+      Node 353
+      center = (-150, 50, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 354
+      center = (-50, 50, -350)
+      half_size = 50
+      mass = 1.19456e+11
+      mass_center = (-79.2006, 23.8409, -398.662)
+      leaf = false
+
+        Node 593
+        center = (-75, 25, -375)
+        half_size = 25
+        mass = 8.70963e+10
+        mass_center = (-91.0293, 28.5675, -434.574)
+        leaf = true
+        sources: 75 
+
+        Node 594
+        center = (-25, 25, -375)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 595
+        center = (-75, 75, -375)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 596
+        center = (-25, 75, -375)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 597
+        center = (-75, 25, -325)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 598
+        center = (-25, 25, -325)
+        half_size = 25
+        mass = 3.23594e+10
+        mass_center = (-47.3634, 11.119, -302.005)
+        leaf = true
+        sources: 127 
+
+        Node 599
+        center = (-75, 75, -325)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 600
+        center = (-25, 75, -325)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 355
+      center = (-150, 150, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 356
+      center = (-50, 150, -350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 357
+      center = (-150, 50, -250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 358
+      center = (-50, 50, -250)
+      half_size = 50
+      mass = 7.43158e+10
+      mass_center = (-25.2097, 90.864, -252.279)
+      leaf = false
+
+        Node 361
+        center = (-75, 25, -275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 362
+        center = (-25, 25, -275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 363
+        center = (-75, 75, -275)
+        half_size = 25
+        mass = 2.75423e+10
+        mass_center = (-61.6035, 90.1302, -252.698)
+        leaf = true
+        sources: 74 
+
+        Node 364
+        center = (-25, 75, -275)
+        half_size = 25
+        mass = 4.67735e+10
+        mass_center = (-3.77946, 91.2961, -252.032)
+        leaf = true
+        sources: 70 
+
+        Node 365
+        center = (-75, 25, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 366
+        center = (-25, 25, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 367
+        center = (-75, 75, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 368
+        center = (-25, 75, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 359
+      center = (-150, 150, -250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 360
+      center = (-50, 150, -250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 51
+    center = (-300, 300, -300)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 52
+    center = (-100, 300, -300)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 53
+    center = (-300, 100, -100)
+    half_size = 100
+    mass = 1.34853e+11
+    mass_center = (-247.152, 24.31, -54.9129)
+    leaf = false
+
+      Node 569
+      center = (-350, 50, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 570
+      center = (-250, 50, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 571
+      center = (-350, 150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 572
+      center = (-250, 150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 573
+      center = (-350, 50, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 574
+      center = (-250, 50, -50)
+      half_size = 50
+      mass = 1.34853e+11
+      mass_center = (-247.152, 24.31, -54.9129)
+      leaf = false
+
+        Node 577
+        center = (-275, 25, -75)
+        half_size = 25
+        mass = 4.36516e+10
+        mass_center = (-254.4, 30.7776, -80.8133)
+        leaf = true
+        sources: 125 
+
+        Node 578
+        center = (-225, 25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 579
+        center = (-275, 75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 580
+        center = (-225, 75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 581
+        center = (-275, 25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 582
+        center = (-225, 25, -25)
+        half_size = 25
+        mass = 9.12011e+10
+        mass_center = (-243.683, 21.2143, -42.5161)
+        leaf = true
+        sources: 67 
+
+        Node 583
+        center = (-275, 75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 584
+        center = (-225, 75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 575
+      center = (-350, 150, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 576
+      center = (-250, 150, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 54
+    center = (-100, 100, -100)
+    half_size = 100
+    mass = 2.84656e+11
+    mass_center = (-142.878, 71.4425, -80.2381)
+    leaf = false
+
+      Node 57
+      center = (-150, 50, -150)
+      half_size = 50
+      mass = 6.45655e+10
+      mass_center = (-137.478, 93.89, -121.727)
+      leaf = true
+      sources: 26 
+
+      Node 58
+      center = (-50, 50, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 59
+      center = (-150, 150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 60
+      center = (-50, 150, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 61
+      center = (-150, 50, -50)
+      half_size = 50
+      mass = 1.53093e+11
+      mass_center = (-179.954, 48.5452, -61.7137)
+      leaf = false
+
+        Node 225
+        center = (-175, 25, -75)
+        half_size = 25
+        mass = 1.34896e+11
+        mass_center = (-177.655, 44.7093, -61.4249)
+        leaf = true
+        sources: 4 
+
+        Node 226
+        center = (-125, 25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 227
+        center = (-175, 75, -75)
+        half_size = 25
+        mass = 1.8197e+10
+        mass_center = (-196.998, 76.9812, -63.8551)
+        leaf = true
+        sources: 45 
+
+        Node 228
+        center = (-125, 75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 229
+        center = (-175, 25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 230
+        center = (-125, 25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 231
+        center = (-175, 75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 232
+        center = (-125, 75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 62
+      center = (-50, 50, -50)
+      half_size = 50
+      mass = 3.31131e+10
+      mass_center = (-1.99049, 70.6109, -65.2183)
+      leaf = true
+      sources: 6 
+
+      Node 63
+      center = (-150, 150, -50)
+      half_size = 50
+      mass = 3.38844e+10
+      mass_center = (-123.34, 132.935, -99.5564)
+      leaf = true
+      sources: 25 
+
+      Node 64
+      center = (-50, 150, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 55
+    center = (-300, 300, -100)
+    half_size = 100
+    mass = 6.76083e+10
+    mass_center = (-223.909, 204.797, -169.737)
+    leaf = true
+    sources: 106 
+
+    Node 56
+    center = (-100, 300, -100)
+    half_size = 100
+    mass = 3.50273e+11
+    mass_center = (-83.4545, 239.535, -67.058)
+    leaf = false
+
+      Node 281
+      center = (-150, 250, -150)
+      half_size = 50
+      mass = 1.10336e+11
+      mass_center = (-119.385, 235.454, -121.411)
+      leaf = false
+
+        Node 561
+        center = (-175, 225, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 562
+        center = (-125, 225, -175)
+        half_size = 25
+        mass = 3.09029e+10
+        mass_center = (-115.332, 233.631, -150.927)
+        leaf = true
+        sources: 123 
+
+        Node 563
+        center = (-175, 275, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 564
+        center = (-125, 275, -175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 565
+        center = (-175, 225, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 566
+        center = (-125, 225, -125)
+        half_size = 25
+        mass = 7.94328e+10
+        mass_center = (-120.962, 236.163, -109.928)
+        leaf = true
+        sources: 82 
+
+        Node 567
+        center = (-175, 275, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 568
+        center = (-125, 275, -125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 282
+      center = (-50, 250, -150)
+      half_size = 50
+      mass = 4.89778e+10
+      mass_center = (-48.3715, 204.237, -124.895)
+      leaf = true
+      sources: 83 
+
+      Node 283
+      center = (-150, 350, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 284
+      center = (-50, 350, -150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 285
+      center = (-150, 250, -50)
+      half_size = 50
+      mass = 7.58578e+10
+      mass_center = (-128.83, 281.662, -43.9038)
+      leaf = true
+      sources: 124 
+
+      Node 286
+      center = (-50, 250, -50)
+      half_size = 50
+      mass = 1.15101e+11
+      mass_center = (-34.0355, 230.702, -5.605)
+      leaf = false
+
+        Node 289
+        center = (-75, 225, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 290
+        center = (-25, 225, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 291
+        center = (-75, 275, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 292
+        center = (-25, 275, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 293
+        center = (-75, 225, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 294
+        center = (-25, 225, -25)
+        half_size = 25
+        mass = 1.15101e+11
+        mass_center = (-34.0355, 230.702, -5.605)
+        leaf = false
+
+          Node 297
+          center = (-37.5, 212.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 298
+          center = (-12.5, 212.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 299
+          center = (-37.5, 237.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 300
+          center = (-12.5, 237.5, -37.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 301
+          center = (-37.5, 212.5, -12.5)
+          half_size = 12.5
+          mass = 7.24435e+10
+          mass_center = (-35.7858, 224.562, -5.35851)
+          leaf = true
+          sources: 50 
+
+          Node 302
+          center = (-12.5, 212.5, -12.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 303
+          center = (-37.5, 237.5, -12.5)
+          half_size = 12.5
+          mass = 4.2658e+10
+          mass_center = (-31.063, 241.129, -6.0236)
+          leaf = true
+          sources: 60 
+
+          Node 304
+          center = (-12.5, 237.5, -12.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+        Node 295
+        center = (-75, 275, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 296
+        center = (-25, 275, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 287
+      center = (-150, 350, -50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 288
       center = (-50, 350, -50)
       half_size = 50
       mass = 0
@@ -1292,97 +2111,34 @@ leaf = false
   Node 4
   center = (200, 200, -200)
   half_size = 200
-  mass = 1.01063e+12
-  mass_center = (184.463, 155.849, -235.153)
+  mass = 1.29368e+12
+  mass_center = (122.34, 151.425, -136.843)
   leaf = false
 
-    Node 137
+    Node 33
     center = (100, 100, -300)
     half_size = 100
-    mass = 1.2132e+11
-    mass_center = (108.614, 80.8064, -240.135)
-    leaf = false
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
 
-      Node 185
-      center = (50, 50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 186
-      center = (150, 50, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 187
-      center = (50, 150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 188
-      center = (150, 150, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 189
-      center = (50, 50, -250)
-      half_size = 50
-      mass = 5.62341e+10
-      mass_center = (36.7663, 33.7197, -255.556)
-      leaf = true
-      sources: 21 
-
-      Node 190
-      center = (150, 50, -250)
-      half_size = 50
-      mass = 2.04174e+10
-      mass_center = (109.652, 66.9772, -205.072)
-      leaf = true
-      sources: 36 
-
-      Node 191
-      center = (50, 150, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 192
-      center = (150, 150, -250)
-      half_size = 50
-      mass = 4.46683e+10
-      mass_center = (198.591, 146.406, -236.748)
-      leaf = true
-      sources: 97 
-
-    Node 138
+    Node 34
     center = (300, 100, -300)
     half_size = 100
-    mass = 3.39988e+11
-    mass_center = (305.97, 155.717, -324.869)
+    mass = 2.69856e+11
+    mass_center = (250.814, 92.9605, -250.221)
     leaf = false
 
-      Node 425
+      Node 369
       center = (250, 50, -350)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 8.70963e+10
+      mass_center = (229.763, 47.5534, -338.194)
       leaf = true
-      sources: 
+      sources: 76 
 
-      Node 426
+      Node 370
       center = (350, 50, -350)
       half_size = 50
       mass = 0
@@ -1390,7 +2146,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 427
+      Node 371
       center = (250, 150, -350)
       half_size = 50
       mass = 0
@@ -1398,15 +2154,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 428
+      Node 372
       center = (350, 150, -350)
       half_size = 50
-      mass = 2.75423e+11
-      mass_center = (303.379, 170.546, -350.066)
+      mass = 0
+      mass_center = (0, 0, 0)
       leaf = true
-      sources: 80 
+      sources: 
 
-      Node 429
+      Node 373
       center = (250, 50, -250)
       half_size = 50
       mass = 0
@@ -1414,23 +2170,212 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 430
+      Node 374
       center = (350, 50, -250)
-      half_size = 50
-      mass = 6.45655e+10
-      mass_center = (317.022, 92.4621, -217.387)
-      leaf = true
-      sources: 95 
-
-      Node 431
-      center = (250, 150, -250)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 432
+      Node 375
+      center = (250, 150, -250)
+      half_size = 50
+      mass = 1.82759e+11
+      mass_center = (260.846, 114.6, -208.297)
+      leaf = false
+
+        Node 401
+        center = (225, 125, -275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 402
+        center = (275, 125, -275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 403
+        center = (225, 175, -275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 404
+        center = (275, 175, -275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 405
+        center = (225, 125, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 406
+        center = (275, 125, -225)
+        half_size = 25
+        mass = 1.82759e+11
+        mass_center = (260.846, 114.6, -208.297)
+        leaf = false
+
+          Node 409
+          center = (262.5, 112.5, -237.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 410
+          center = (287.5, 112.5, -237.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 411
+          center = (262.5, 137.5, -237.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 412
+          center = (287.5, 137.5, -237.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 413
+          center = (262.5, 112.5, -212.5)
+          half_size = 12.5
+          mass = 1.82759e+11
+          mass_center = (260.846, 114.6, -208.297)
+          leaf = false
+
+            Node 417
+            center = (256.25, 106.25, -218.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 418
+            center = (268.75, 106.25, -218.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 419
+            center = (256.25, 118.75, -218.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 420
+            center = (268.75, 118.75, -218.75)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 421
+            center = (256.25, 106.25, -206.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+            Node 422
+            center = (268.75, 106.25, -206.25)
+            half_size = 6.25
+            mass = 4.7863e+10
+            mass_center = (265.548, 110.077, -201.763)
+            leaf = true
+            sources: 71 
+
+            Node 423
+            center = (256.25, 118.75, -206.25)
+            half_size = 6.25
+            mass = 1.34896e+11
+            mass_center = (259.177, 116.204, -210.615)
+            leaf = true
+            sources: 87 
+
+            Node 424
+            center = (268.75, 118.75, -206.25)
+            half_size = 6.25
+            mass = 0
+            mass_center = (0, 0, 0)
+            leaf = true
+            sources: 
+
+          Node 414
+          center = (287.5, 112.5, -212.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 415
+          center = (262.5, 137.5, -212.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 416
+          center = (287.5, 137.5, -212.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+        Node 407
+        center = (225, 175, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 408
+        center = (275, 175, -225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 376
       center = (350, 150, -250)
       half_size = 50
       mass = 0
@@ -1438,78 +2383,15 @@ leaf = false
       leaf = true
       sources: 
 
-    Node 139
+    Node 35
     center = (100, 300, -300)
     half_size = 100
-    mass = 1.65353e+11
-    mass_center = (118.713, 242.191, -267.419)
-    leaf = false
+    mass = 5.12861e+10
+    mass_center = (32.8562, 216.721, -268.265)
+    leaf = true
+    sources: 79 
 
-      Node 449
-      center = (50, 250, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 450
-      center = (150, 250, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 451
-      center = (50, 350, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 452
-      center = (150, 350, -350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 453
-      center = (50, 250, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 454
-      center = (150, 250, -250)
-      half_size = 50
-      mass = 1.1749e+11
-      mass_center = (151.435, 208.298, -286.835)
-      leaf = true
-      sources: 85 
-
-      Node 455
-      center = (50, 350, -250)
-      half_size = 50
-      mass = 4.7863e+10
-      mass_center = (38.3898, 325.391, -219.757)
-      leaf = true
-      sources: 107 
-
-      Node 456
-      center = (150, 350, -250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 140
+    Node 36
     center = (300, 300, -300)
     half_size = 100
     mass = 0
@@ -1517,100 +2399,37 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 141
+    Node 37
     center = (100, 100, -100)
     half_size = 100
-    mass = 2.3217e+11
-    mass_center = (108.867, 111.182, -158.767)
+    mass = 5.19216e+11
+    mass_center = (71.6382, 118.126, -123.911)
     leaf = false
 
-      Node 193
+      Node 41
       center = (50, 50, -150)
       half_size = 50
-      mass = 1.12202e+10
-      mass_center = (56.9788, 8.60366, -148.662)
+      mass = 1.69824e+10
+      mass_center = (49.6552, 78.9544, -102.564)
       leaf = true
-      sources: 49 
+      sources: 31 
 
-      Node 194
+      Node 42
       center = (150, 50, -150)
       half_size = 50
-      mass = 1.09833e+11
-      mass_center = (147.258, 79.0532, -158.5)
-      leaf = false
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
 
-        Node 225
-        center = (125, 25, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 226
-        center = (175, 25, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 227
-        center = (125, 75, -175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 228
-        center = (175, 75, -175)
-        half_size = 25
-        mass = 5.7544e+10
-        mass_center = (167.126, 96.0524, -194.938)
-        leaf = true
-        sources: 53 
-
-        Node 229
-        center = (125, 25, -125)
-        half_size = 25
-        mass = 3.71535e+10
-        mass_center = (120.282, 47.5545, -107.637)
-        leaf = true
-        sources: 63 
-
-        Node 230
-        center = (175, 25, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 231
-        center = (125, 75, -125)
-        half_size = 25
-        mass = 1.51356e+10
-        mass_center = (137.943, 91.744, -144.818)
-        leaf = true
-        sources: 54 
-
-        Node 232
-        center = (175, 75, -125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 195
+      Node 43
       center = (50, 150, -150)
       half_size = 50
-      mass = 7.03595e+10
-      mass_center = (58.7806, 165.127, -176.509)
+      mass = 3.49939e+11
+      mass_center = (61.7974, 156.006, -155.337)
       leaf = false
 
-        Node 217
+        Node 65
         center = (25, 125, -175)
         half_size = 25
         mass = 0
@@ -1618,7 +2437,7 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 218
+        Node 66
         center = (75, 125, -175)
         half_size = 25
         mass = 0
@@ -1626,39 +2445,39 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 219
+        Node 67
         center = (25, 175, -175)
         half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
+        mass = 5.49541e+10
+        mass_center = (40.4485, 194.725, -164.794)
         leaf = true
-        sources: 
+        sources: 37 
 
-        Node 220
+        Node 68
         center = (75, 175, -175)
         half_size = 25
-        mass = 5.62341e+10
-        mass_center = (68.4455, 174.176, -194.997)
+        mass = 1.94984e+11
+        mass_center = (65.7477, 159.88, -166.654)
         leaf = true
-        sources: 48 
+        sources: 5 
 
-        Node 221
+        Node 69
         center = (25, 125, -125)
-        half_size = 25
-        mass = 1.41254e+10
-        mass_center = (20.3043, 129.101, -102.906)
-        leaf = true
-        sources: 19 
-
-        Node 222
-        center = (75, 125, -125)
         half_size = 25
         mass = 0
         mass_center = (0, 0, 0)
         leaf = true
         sources: 
 
-        Node 223
+        Node 70
+        center = (75, 125, -125)
+        half_size = 25
+        mass = 1e+11
+        mass_center = (65.8271, 127.174, -128.074)
+        leaf = true
+        sources: 7 
+
+        Node 71
         center = (25, 175, -125)
         half_size = 25
         mass = 0
@@ -1666,7 +2485,7 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 224
+        Node 72
         center = (75, 175, -125)
         half_size = 25
         mass = 0
@@ -1674,23 +2493,149 @@ leaf = false
         leaf = true
         sources: 
 
-      Node 196
+      Node 44
       center = (150, 150, -150)
-      half_size = 50
-      mass = 2.63027e+10
-      mass_center = (105.469, 146.182, -181.242)
-      leaf = true
-      sources: 47 
-
-      Node 197
-      center = (50, 50, -50)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 198
+      Node 45
+      center = (50, 50, -50)
+      half_size = 50
+      mass = 1.17661e+11
+      mass_center = (77.3643, 10.3368, -51.0799)
+      leaf = false
+
+        Node 73
+        center = (25, 25, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 74
+        center = (75, 25, -75)
+        half_size = 25
+        mass = 6.14267e+10
+        mass_center = (83.5109, 17.3181, -83.6043)
+        leaf = false
+
+          Node 145
+          center = (62.5, 12.5, -87.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 146
+          center = (87.5, 12.5, -87.5)
+          half_size = 12.5
+          mass = 3.63078e+10
+          mass_center = (84.6651, 2.12324, -86.5936)
+          leaf = true
+          sources: 8 
+
+          Node 147
+          center = (62.5, 37.5, -87.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 148
+          center = (87.5, 37.5, -87.5)
+          half_size = 12.5
+          mass = 2.51188e+10
+          mass_center = (81.8427, 39.2813, -79.2833)
+          leaf = true
+          sources: 18 
+
+          Node 149
+          center = (62.5, 12.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 150
+          center = (87.5, 12.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 151
+          center = (62.5, 37.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 152
+          center = (87.5, 37.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+        Node 75
+        center = (25, 75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 76
+        center = (75, 75, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 77
+        center = (25, 25, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 78
+        center = (75, 25, -25)
+        half_size = 25
+        mass = 5.62341e+10
+        mass_center = (70.6501, 2.71098, -15.5523)
+        leaf = true
+        sources: 1 
+
+        Node 79
+        center = (25, 75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 80
+        center = (75, 75, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 46
       center = (150, 50, -50)
       half_size = 50
       mass = 0
@@ -1698,7 +2643,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 199
+      Node 47
       center = (50, 150, -50)
       half_size = 50
       mass = 0
@@ -1706,30 +2651,93 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 200
+      Node 48
       center = (150, 150, -50)
       half_size = 50
-      mass = 1.44544e+10
-      mass_center = (107.416, 108.666, -41.3802)
-      leaf = true
-      sources: 38 
+      mass = 3.46341e+10
+      mass_center = (162.395, 120.795, -64.2782)
+      leaf = false
 
-    Node 142
+        Node 321
+        center = (125, 125, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 322
+        center = (175, 125, -75)
+        half_size = 25
+        mass = 1.51356e+10
+        mass_center = (160, 113.091, -94.4308)
+        leaf = true
+        sources: 62 
+
+        Node 323
+        center = (125, 175, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 324
+        center = (175, 175, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 325
+        center = (125, 125, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 326
+        center = (175, 125, -25)
+        half_size = 25
+        mass = 1.94984e+10
+        mass_center = (164.254, 126.775, -40.8723)
+        leaf = true
+        sources: 51 
+
+        Node 327
+        center = (125, 175, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 328
+        center = (175, 175, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+    Node 38
     center = (300, 100, -100)
     half_size = 100
-    mass = 5.62341e+10
-    mass_center = (296.939, 20.8613, -58.0063)
+    mass = 1.07152e+11
+    mass_center = (215.31, 37.0806, -99.3612)
     leaf = true
-    sources: 94 
+    sources: 16 
 
-    Node 143
+    Node 39
     center = (100, 300, -100)
     half_size = 100
-    mass = 9.5563e+10
-    mass_center = (79.7052, 290.142, -143.632)
+    mass = 3.46166e+11
+    mass_center = (82.7161, 272.666, -59.9869)
     leaf = false
 
-      Node 505
+      Node 425
       center = (50, 250, -150)
       half_size = 50
       mass = 0
@@ -1737,23 +2745,23 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 506
+      Node 426
       center = (150, 250, -150)
+      half_size = 50
+      mass = 5.37031e+10
+      mass_center = (178.695, 261.572, -102.061)
+      leaf = true
+      sources: 98 
+
+      Node 427
+      center = (50, 350, -150)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 507
-      center = (50, 350, -150)
-      half_size = 50
-      mass = 5.7544e+10
-      mass_center = (80.1127, 311.739, -178.23)
-      leaf = true
-      sources: 117 
-
-      Node 508
+      Node 428
       center = (150, 350, -150)
       half_size = 50
       mass = 0
@@ -1761,15 +2769,141 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 509
+      Node 429
       center = (50, 250, -50)
       half_size = 50
-      mass = 3.80189e+10
-      mass_center = (79.0886, 257.453, -91.2656)
-      leaf = true
-      sources: 69 
+      mass = 2.92463e+11
+      mass_center = (65.0921, 274.703, -52.2611)
+      leaf = false
 
-      Node 510
+        Node 433
+        center = (25, 225, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 434
+        center = (75, 225, -75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 435
+        center = (25, 275, -75)
+        half_size = 25
+        mass = 6.45655e+10
+        mass_center = (49.9586, 285.731, -78.5032)
+        leaf = true
+        sources: 120 
+
+        Node 436
+        center = (75, 275, -75)
+        half_size = 25
+        mass = 9.83369e+10
+        mass_center = (81.1967, 284.326, -93.2028)
+        leaf = false
+
+          Node 553
+          center = (62.5, 262.5, -87.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 554
+          center = (87.5, 262.5, -87.5)
+          half_size = 12.5
+          mass = 2.75423e+10
+          mass_center = (79.9109, 270.433, -84.0144)
+          leaf = true
+          sources: 121 
+
+          Node 555
+          center = (62.5, 287.5, -87.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 556
+          center = (87.5, 287.5, -87.5)
+          half_size = 12.5
+          mass = 7.07946e+10
+          mass_center = (81.6969, 289.731, -96.7775)
+          leaf = true
+          sources: 89 
+
+          Node 557
+          center = (62.5, 262.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 558
+          center = (87.5, 262.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 559
+          center = (62.5, 287.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 560
+          center = (87.5, 287.5, -62.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+        Node 437
+        center = (25, 225, -25)
+        half_size = 25
+        mass = 7.58578e+10
+        mass_center = (43.6682, 244.797, -12.7467)
+        leaf = true
+        sources: 55 
+
+        Node 438
+        center = (75, 225, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 439
+        center = (25, 275, -25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 440
+        center = (75, 275, -25)
+        half_size = 25
+        mass = 5.37031e+10
+        mass_center = (84.0595, 286.067, -1.55766)
+        leaf = true
+        sources: 119 
+
+      Node 430
       center = (150, 250, -50)
       half_size = 50
       mass = 0
@@ -1777,7 +2911,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 511
+      Node 431
       center = (50, 350, -50)
       half_size = 50
       mass = 0
@@ -1785,7 +2919,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 512
+      Node 432
       center = (150, 350, -50)
       half_size = 50
       mass = 0
@@ -1793,7 +2927,7 @@ leaf = false
       leaf = true
       sources: 
 
-    Node 144
+    Node 40
     center = (300, 300, -100)
     half_size = 100
     mass = 0
@@ -1804,11 +2938,11 @@ leaf = false
   Node 5
   center = (-200, -200, 200)
   half_size = 200
-  mass = 1.29368e+12
-  mass_center = (-130.993, -161.674, 146.637)
+  mass = 1.01063e+12
+  mass_center = (-169.698, -143.854, 216.634)
   leaf = false
 
-    Node 33
+    Node 153
     center = (-300, -300, 100)
     half_size = 100
     mass = 0
@@ -1816,14 +2950,14 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 34
+    Node 154
     center = (-100, -300, 100)
     half_size = 100
-    mass = 4.0112e+11
-    mass_center = (-82.4767, -280.235, 79.548)
+    mass = 9.5563e+10
+    mass_center = (-74.2203, -269.99, 133.436)
     leaf = false
 
-      Node 233
+      Node 537
       center = (-150, -350, 50)
       half_size = 50
       mass = 0
@@ -1831,78 +2965,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 234
+      Node 538
       center = (-50, -350, 50)
       half_size = 50
-      mass = 1.18269e+11
-      mass_center = (-70.0861, -306.187, 46.6686)
-      leaf = false
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
 
-        Node 513
-        center = (-75, -375, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 514
-        center = (-25, -375, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 515
-        center = (-75, -325, 25)
-        half_size = 25
-        mass = 5.37031e+10
-        mass_center = (-90.0036, -306.296, 1.66781)
-        leaf = true
-        sources: 119 
-
-        Node 516
-        center = (-25, -325, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 517
-        center = (-75, -375, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 518
-        center = (-25, -375, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 519
-        center = (-75, -325, 75)
-        half_size = 25
-        mass = 6.45655e+10
-        mass_center = (-53.5194, -306.097, 84.0986)
-        leaf = true
-        sources: 120 
-
-        Node 520
-        center = (-25, -325, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 235
+      Node 539
       center = (-150, -250, 50)
       half_size = 50
       mass = 0
@@ -1910,78 +2981,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 236
+      Node 540
       center = (-50, -250, 50)
       half_size = 50
-      mass = 1.034e+11
-      mass_center = (-56.6936, -267.227, 33.842)
-      leaf = false
+      mass = 3.80189e+10
+      mass_center = (-74.3792, -242.122, 85.8311)
+      leaf = true
+      sources: 69 
 
-        Node 521
-        center = (-75, -275, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 522
-        center = (-25, -275, 25)
-        half_size = 25
-        mass = 7.58578e+10
-        mass_center = (-46.2397, -259.212, 13.4973)
-        leaf = true
-        sources: 55 
-
-        Node 523
-        center = (-75, -225, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 524
-        center = (-25, -225, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 525
-        center = (-75, -275, 75)
-        half_size = 25
-        mass = 2.75423e+10
-        mass_center = (-85.486, -289.3, 89.8759)
-        leaf = true
-        sources: 121 
-
-        Node 526
-        center = (-25, -275, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 527
-        center = (-75, -225, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 528
-        center = (-25, -225, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 237
+      Node 541
       center = (-150, -350, 150)
       half_size = 50
       mass = 0
@@ -1989,125 +2997,62 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 238
+      Node 542
       center = (-50, -350, 150)
-      half_size = 50
-      mass = 7.07946e+10
-      mass_center = (-87.8297, -311.481, 104.042)
-      leaf = true
-      sources: 89 
-
-      Node 239
-      center = (-150, -250, 150)
-      half_size = 50
-      mass = 5.37031e+10
-      mass_center = (-192.827, -282.259, 110.132)
-      leaf = true
-      sources: 98 
-
-      Node 240
-      center = (-50, -250, 150)
-      half_size = 50
-      mass = 5.49541e+10
-      mass_center = (-42.9206, -206.626, 174.865)
-      leaf = true
-      sources: 37 
-
-    Node 35
-    center = (-300, -100, 100)
-    half_size = 100
-    mass = 1.07152e+11
-    mass_center = (-227.526, -39.1844, 104.999)
-    leaf = true
-    sources: 16 
-
-    Node 36
-    center = (-100, -100, 100)
-    half_size = 100
-    mass = 4.64262e+11
-    mass_center = (-78.6699, -114.731, 125.006)
-    leaf = false
-
-      Node 41
-      center = (-150, -150, 50)
-      half_size = 50
-      mass = 3.46341e+10
-      mass_center = (-170.601, -126.895, 67.5458)
-      leaf = false
-
-        Node 289
-        center = (-175, -175, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 290
-        center = (-125, -175, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 291
-        center = (-175, -125, 25)
-        half_size = 25
-        mass = 1.94984e+10
-        mass_center = (-172.452, -133.102, 42.9122)
-        leaf = true
-        sources: 51 
-
-        Node 292
-        center = (-125, -125, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 293
-        center = (-175, -175, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 294
-        center = (-125, -175, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 295
-        center = (-175, -125, 75)
-        half_size = 25
-        mass = 1.51356e+10
-        mass_center = (-168.216, -118.898, 99.2799)
-        leaf = true
-        sources: 62 
-
-        Node 296
-        center = (-125, -125, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 42
-      center = (-50, -150, 50)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 43
+      Node 543
+      center = (-150, -250, 150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 544
+      center = (-50, -250, 150)
+      half_size = 50
+      mass = 5.7544e+10
+      mass_center = (-74.1154, -288.402, 164.888)
+      leaf = true
+      sources: 117 
+
+    Node 155
+    center = (-300, -100, 100)
+    half_size = 100
+    mass = 5.62341e+10
+    mass_center = (-278.207, -19.5452, 54.347)
+    leaf = true
+    sources: 94 
+
+    Node 156
+    center = (-100, -100, 100)
+    half_size = 100
+    mass = 2.52587e+11
+    mass_center = (-103.438, -102.033, 154.096)
+    leaf = false
+
+      Node 201
+      center = (-150, -150, 50)
+      half_size = 50
+      mass = 1.44544e+10
+      mass_center = (-103.689, -104.895, 39.9443)
+      leaf = true
+      sources: 38 
+
+      Node 202
+      center = (-50, -150, 50)
+      half_size = 50
+      mass = 1.41254e+10
+      mass_center = (-19.5661, -124.408, 99.1649)
+      leaf = true
+      sources: 19 
+
+      Node 203
       center = (-150, -50, 50)
       half_size = 50
       mass = 0
@@ -2115,141 +3060,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 44
+      Node 204
       center = (-50, -50, 50)
       half_size = 50
-      mass = 1.17661e+11
-      mass_center = (-79.1746, -10.6148, 52.4451)
-      leaf = false
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
 
-        Node 73
-        center = (-75, -75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 74
-        center = (-25, -75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 75
-        center = (-75, -25, 25)
-        half_size = 25
-        mass = 5.62341e+10
-        mass_center = (-71.8482, -2.75695, 15.816)
-        leaf = true
-        sources: 1 
-
-        Node 76
-        center = (-25, -25, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 77
-        center = (-75, -75, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 78
-        center = (-25, -75, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 79
-        center = (-75, -25, 75)
-        half_size = 25
-        mass = 6.14267e+10
-        mass_center = (-85.8818, -17.8084, 85.9779)
-        leaf = false
-
-          Node 129
-          center = (-87.5, -37.5, 62.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 130
-          center = (-62.5, -37.5, 62.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 131
-          center = (-87.5, -12.5, 62.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 132
-          center = (-62.5, -12.5, 62.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 133
-          center = (-87.5, -37.5, 87.5)
-          half_size = 12.5
-          mass = 2.51188e+10
-          mass_center = (-84.1593, -40.3932, 81.5275)
-          leaf = true
-          sources: 18 
-
-          Node 134
-          center = (-62.5, -37.5, 87.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 135
-          center = (-87.5, -12.5, 87.5)
-          half_size = 12.5
-          mass = 3.63078e+10
-          mass_center = (-87.0735, -2.18364, 89.0569)
-          leaf = true
-          sources: 8 
-
-          Node 136
-          center = (-62.5, -12.5, 87.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-        Node 80
-        center = (-25, -25, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 45
+      Node 205
       center = (-150, -150, 150)
       half_size = 50
       mass = 0
@@ -2257,14 +3076,14 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 46
+      Node 206
       center = (-50, -150, 150)
       half_size = 50
-      mass = 2.94984e+11
-      mass_center = (-69.2522, -156.744, 161.794)
+      mass = 8.25368e+10
+      mass_center = (-75.7744, -155.986, 179.934)
       leaf = false
 
-        Node 65
+        Node 233
         center = (-75, -175, 125)
         half_size = 25
         mass = 0
@@ -2272,7 +3091,7 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 66
+        Node 234
         center = (-25, -175, 125)
         half_size = 25
         mass = 0
@@ -2280,15 +3099,15 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 67
+        Node 235
         center = (-75, -125, 125)
         half_size = 25
-        mass = 1e+11
-        mass_center = (-68.8086, -132.934, 133.875)
+        mass = 0
+        mass_center = (0, 0, 0)
         leaf = true
-        sources: 7 
+        sources: 
 
-        Node 68
+        Node 236
         center = (-25, -125, 125)
         half_size = 25
         mass = 0
@@ -2296,15 +3115,15 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 69
+        Node 237
         center = (-75, -175, 175)
         half_size = 25
-        mass = 1.94984e+11
-        mass_center = (-69.4796, -168.955, 176.113)
+        mass = 5.62341e+10
+        mass_center = (-64.5526, -164.27, 183.907)
         leaf = true
-        sources: 5 
+        sources: 48 
 
-        Node 70
+        Node 238
         center = (-25, -175, 175)
         half_size = 25
         mass = 0
@@ -2312,15 +3131,15 @@ leaf = false
         leaf = true
         sources: 
 
-        Node 71
+        Node 239
         center = (-75, -125, 175)
         half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
+        mass = 2.63027e+10
+        mass_center = (-99.7661, -138.277, 171.442)
         leaf = true
-        sources: 
+        sources: 47 
 
-        Node 72
+        Node 240
         center = (-25, -125, 175)
         half_size = 25
         mass = 0
@@ -2328,983 +3147,15 @@ leaf = false
         leaf = true
         sources: 
 
-      Node 47
+      Node 207
       center = (-150, -50, 150)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 48
-      center = (-50, -50, 150)
-      half_size = 50
-      mass = 1.69824e+10
-      mass_center = (-51.2734, -81.5275, 105.907)
-      leaf = true
-      sources: 31 
-
-    Node 37
-    center = (-300, -300, 300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 38
-    center = (-100, -300, 300)
-    half_size = 100
-    mass = 5.12861e+10
-    mass_center = (-35.5631, -234.575, 290.366)
-    leaf = true
-    sources: 79 
-
-    Node 39
-    center = (-300, -100, 300)
-    half_size = 100
-    mass = 2.69856e+11
-    mass_center = (-272.934, -100.986, 272.793)
-    leaf = false
-
-      Node 353
-      center = (-350, -150, 250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 354
-      center = (-250, -150, 250)
-      half_size = 50
-      mass = 1.82759e+11
-      mass_center = (-282.749, -124.224, 225.789)
-      leaf = false
-
-        Node 377
-        center = (-275, -175, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 378
-        center = (-225, -175, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 379
-        center = (-275, -125, 225)
-        half_size = 25
-        mass = 1.82759e+11
-        mass_center = (-282.749, -124.224, 225.789)
-        leaf = false
-
-          Node 385
-          center = (-287.5, -137.5, 212.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 386
-          center = (-262.5, -137.5, 212.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 387
-          center = (-287.5, -112.5, 212.5)
-          half_size = 12.5
-          mass = 4.7863e+10
-          mass_center = (-287.733, -119.274, 218.619)
-          leaf = true
-          sources: 71 
-
-          Node 388
-          center = (-262.5, -112.5, 212.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 389
-          center = (-287.5, -137.5, 237.5)
-          half_size = 12.5
-          mass = 1.34896e+11
-          mass_center = (-280.981, -125.98, 228.333)
-          leaf = true
-          sources: 87 
-
-          Node 390
-          center = (-262.5, -137.5, 237.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 391
-          center = (-287.5, -112.5, 237.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 392
-          center = (-262.5, -112.5, 237.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-        Node 380
-        center = (-225, -125, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 381
-        center = (-275, -175, 275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 382
-        center = (-225, -175, 275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 383
-        center = (-275, -125, 275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 384
-        center = (-225, -125, 275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 355
-      center = (-350, -50, 250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 356
-      center = (-250, -50, 250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 357
-      center = (-350, -150, 350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 358
-      center = (-250, -150, 350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 359
-      center = (-350, -50, 350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 360
-      center = (-250, -50, 350)
-      half_size = 50
-      mass = 8.70963e+10
-      mass_center = (-252.339, -52.2259, 371.424)
-      leaf = true
-      sources: 76 
-
-    Node 40
-    center = (-100, -100, 300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-  Node 6
-  center = (200, -200, 200)
-  half_size = 200
-  mass = 1.09573e+12
-  mass_center = (142.612, -135.579, 142.551)
-  leaf = false
-
-    Node 49
-    center = (100, -300, 100)
-    half_size = 100
-    mass = 3.50273e+11
-    mass_center = (89.1259, -255.015, 71.5223)
-    leaf = false
-
-      Node 257
-      center = (50, -350, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 258
-      center = (150, -350, 50)
-      half_size = 50
-      mass = 7.58578e+10
-      mass_center = (138.396, -302.575, 47.1637)
-      leaf = true
-      sources: 124 
-
-      Node 259
-      center = (50, -250, 50)
-      half_size = 50
-      mass = 1.15101e+11
-      mass_center = (35.9076, -243.434, 5.91457)
-      leaf = false
-
-        Node 265
-        center = (25, -275, 25)
-        half_size = 25
-        mass = 4.2658e+10
-        mass_center = (32.8491, -254.994, 6.36996)
-        leaf = true
-        sources: 60 
-
-        Node 266
-        center = (75, -275, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 267
-        center = (25, -225, 25)
-        half_size = 25
-        mass = 7.24435e+10
-        mass_center = (37.7086, -236.628, 5.64642)
-        leaf = true
-        sources: 50 
-
-        Node 268
-        center = (75, -225, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 269
-        center = (25, -275, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 270
-        center = (75, -275, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 271
-        center = (25, -225, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 272
-        center = (75, -225, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 260
-      center = (150, -250, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 261
-      center = (50, -350, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 262
-      center = (150, -350, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 263
-      center = (50, -250, 150)
-      half_size = 50
-      mass = 4.89778e+10
-      mass_center = (51.1649, -216.031, 132.107)
-      leaf = true
-      sources: 83 
-
-      Node 264
-      center = (150, -250, 150)
-      half_size = 50
-      mass = 1.10336e+11
-      mass_center = (127.62, -251.701, 129.817)
-      leaf = false
-
-        Node 529
-        center = (125, -275, 125)
-        half_size = 25
-        mass = 7.94328e+10
-        mass_center = (129.196, -252.24, 117.411)
-        leaf = true
-        sources: 82 
-
-        Node 530
-        center = (175, -275, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 531
-        center = (125, -225, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 532
-        center = (175, -225, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 533
-        center = (125, -275, 175)
-        half_size = 25
-        mass = 3.09029e+10
-        mass_center = (123.57, -250.317, 161.707)
-        leaf = true
-        sources: 123 
-
-        Node 534
-        center = (175, -275, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 535
-        center = (125, -225, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 536
-        center = (175, -225, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-    Node 50
-    center = (300, -300, 100)
-    half_size = 100
-    mass = 6.76083e+10
-    mass_center = (242.424, -221.732, 183.773)
-    leaf = true
-    sources: 106 
-
-    Node 51
-    center = (100, -100, 100)
-    half_size = 100
-    mass = 2.66459e+11
-    mass_center = (145.672, -74.2255, 85.0096)
-    leaf = false
-
-      Node 57
-      center = (50, -150, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 58
-      center = (150, -150, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 59
-      center = (50, -50, 50)
-      half_size = 50
-      mass = 3.31131e+10
-      mass_center = (2.03537, -72.2032, 66.6889)
-      leaf = true
-      sources: 6 
-
-      Node 60
-      center = (150, -50, 50)
-      half_size = 50
-      mass = 1.34896e+11
-      mass_center = (185.748, -46.7461, 64.2232)
-      leaf = true
-      sources: 4 
-
-      Node 61
-      center = (50, -150, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 62
-      center = (150, -150, 150)
-      half_size = 50
-      mass = 3.38844e+10
-      mass_center = (129.361, -139.424, 104.416)
-      leaf = true
-      sources: 25 
-
-      Node 63
-      center = (50, -50, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 64
-      center = (150, -50, 150)
-      half_size = 50
-      mass = 6.45655e+10
-      mass_center = (144.167, -98.4586, 127.65)
-      leaf = true
-      sources: 26 
-
-    Node 52
-    center = (300, -100, 100)
-    half_size = 100
-    mass = 1.5305e+11
-    mass_center = (255.553, -32.3506, 59.3261)
-    leaf = false
-
-      Node 313
-      center = (250, -150, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 314
-      center = (350, -150, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 315
-      center = (250, -50, 50)
-      half_size = 50
-      mass = 1.5305e+11
-      mass_center = (255.553, -32.3506, 59.3261)
-      leaf = false
-
-        Node 321
-        center = (225, -75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 322
-        center = (275, -75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 323
-        center = (225, -25, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 324
-        center = (275, -25, 25)
-        half_size = 25
-        mass = 9.12011e+10
-        mass_center = (257.991, -22.46, 45.0125)
-        leaf = true
-        sources: 67 
-
-        Node 325
-        center = (225, -75, 75)
-        half_size = 25
-        mass = 1.8197e+10
-        mass_center = (207.275, -80.9973, 67.1864)
-        leaf = true
-        sources: 45 
-
-        Node 326
-        center = (275, -75, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 327
-        center = (225, -25, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 328
-        center = (275, -25, 75)
-        half_size = 25
-        mass = 4.36516e+10
-        mass_center = (270.585, -32.7356, 85.9545)
-        leaf = true
-        sources: 125 
-
-      Node 316
-      center = (350, -50, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 317
-      center = (250, -150, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 318
-      center = (350, -150, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 319
-      center = (250, -50, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 320
-      center = (350, -50, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 53
-    center = (100, -300, 300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 54
-    center = (300, -300, 300)
-    half_size = 100
-    mass = 0
-    mass_center = (0, 0, 0)
-    leaf = true
-    sources: 
-
-    Node 55
-    center = (100, -100, 300)
-    half_size = 100
-    mass = 1.93771e+11
-    mass_center = (64.0508, -53.281, 373.171)
-    leaf = false
-
-      Node 337
-      center = (50, -150, 250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 338
-      center = (150, -150, 250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 339
-      center = (50, -50, 250)
-      half_size = 50
-      mass = 7.43158e+10
-      mass_center = (26.8492, -96.689, 268.453)
-      leaf = false
-
-        Node 345
-        center = (25, -75, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 346
-        center = (75, -75, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 347
-        center = (25, -25, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 348
-        center = (75, -25, 225)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 349
-        center = (25, -75, 275)
-        half_size = 25
-        mass = 4.67735e+10
-        mass_center = (4.01935, -97.0908, 268.028)
-        leaf = true
-        sources: 70 
-
-        Node 350
-        center = (75, -75, 275)
-        half_size = 25
-        mass = 2.75423e+10
-        mass_center = (65.62, -96.0066, 269.174)
-        leaf = true
-        sources: 74 
-
-        Node 351
-        center = (25, -25, 275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 352
-        center = (75, -25, 275)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 340
-      center = (150, -50, 250)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 341
-      center = (50, -150, 350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 342
-      center = (150, -150, 350)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 343
-      center = (50, -50, 350)
-      half_size = 50
-      mass = 3.23594e+10
-      mass_center = (50.801, -11.926, 323.924)
-      leaf = true
-      sources: 127 
-
-      Node 344
-      center = (150, -50, 350)
-      half_size = 50
-      mass = 8.70963e+10
-      mass_center = (100.716, -31.6075, 480.819)
-      leaf = true
-      sources: 75 
-
-    Node 56
-    center = (300, -100, 300)
-    half_size = 100
-    mass = 6.45655e+10
-    mass_center = (283.678, -142.302, 227.352)
-    leaf = true
-    sources: 96 
-
-  Node 7
-  center = (-200, 200, 200)
-  half_size = 200
-  mass = 3.71098e+11
-  mass_center = (-194.793, 126.592, 148.883)
-  leaf = false
-
-    Node 169
-    center = (-300, 100, 100)
-    half_size = 100
-    mass = 6.32232e+10
-    mass_center = (-254.657, 88.6521, 16.8331)
-    leaf = false
-
-      Node 497
-      center = (-350, 50, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 498
-      center = (-250, 50, 50)
-      half_size = 50
-      mass = 3.63078e+10
-      mass_center = (-291.035, 31.7136, 5.53596)
-      leaf = true
-      sources: 113 
-
-      Node 499
-      center = (-350, 150, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 500
-      center = (-250, 150, 50)
-      half_size = 50
-      mass = 2.69154e+10
-      mass_center = (-205.585, 165.46, 32.0725)
-      leaf = true
-      sources: 59 
-
-      Node 501
-      center = (-350, 50, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 502
-      center = (-250, 50, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 503
-      center = (-350, 150, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 504
-      center = (-250, 150, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 170
-    center = (-100, 100, 100)
-    half_size = 100
-    mass = 1.00448e+11
-    mass_center = (-127.917, 128.308, 70.1643)
-    leaf = false
-
-      Node 177
-      center = (-150, 50, 50)
-      half_size = 50
-      mass = 2.43584e+10
-      mass_center = (-125.523, 25.8533, 61.315)
-      leaf = false
-
-        Node 209
-        center = (-175, 25, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 210
-        center = (-125, 25, 25)
-        half_size = 25
-        mass = 1.65959e+10
-        mass_center = (-121.645, 30.837, 43.2926)
-        leaf = true
-        sources: 41 
-
-        Node 211
-        center = (-175, 75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 212
-        center = (-125, 75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 213
-        center = (-175, 25, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 214
-        center = (-125, 25, 75)
-        half_size = 25
-        mass = 7.76248e+09
-        mass_center = (-133.814, 15.1983, 99.8461)
-        leaf = true
-        sources: 17 
-
-        Node 215
-        center = (-175, 75, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 216
-        center = (-125, 75, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 178
-      center = (-50, 50, 50)
-      half_size = 50
-      mass = 1.7205e+10
-      mass_center = (-23.388, 82.6556, 18.1458)
+      mass = 1.30251e+11
+      mass_center = (-134.209, -73.1742, 157.263)
       leaf = false
 
         Node 249
-        center = (-75, 25, 25)
+        center = (-175, -75, 125)
         half_size = 25
         mass = 0
         mass_center = (0, 0, 0)
@@ -3312,15 +3163,15 @@ leaf = false
         sources: 
 
         Node 250
-        center = (-25, 25, 25)
+        center = (-125, -75, 125)
         half_size = 25
-        mass = 3.71535e+09
-        mass_center = (-43.1877, 34.6804, 30.9924)
+        mass = 1.51356e+10
+        mass_center = (-131.44, -87.4186, 137.99)
         leaf = true
-        sources: 32 
+        sources: 54 
 
         Node 251
-        center = (-75, 75, 25)
+        center = (-175, -25, 125)
         half_size = 25
         mass = 0
         mass_center = (0, 0, 0)
@@ -3328,31 +3179,31 @@ leaf = false
         sources: 
 
         Node 252
-        center = (-25, 75, 25)
+        center = (-125, -25, 125)
         half_size = 25
-        mass = 1.34896e+10
-        mass_center = (-17.9347, 95.869, 14.6076)
+        mass = 3.71535e+10
+        mass_center = (-115.861, -45.8069, 103.682)
         leaf = true
-        sources: 57 
+        sources: 63 
 
         Node 253
-        center = (-75, 25, 75)
+        center = (-175, -75, 175)
         half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
+        mass = 5.7544e+10
+        mass_center = (-157.498, -90.5186, 183.708)
         leaf = true
-        sources: 
+        sources: 53 
 
         Node 254
-        center = (-25, 25, 75)
+        center = (-125, -75, 175)
         half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
+        mass = 2.04174e+10
+        mass_center = (-104.011, -63.5318, 194.523)
         leaf = true
-        sources: 
+        sources: 36 
 
         Node 255
-        center = (-75, 75, 75)
+        center = (-175, -25, 175)
         half_size = 25
         mass = 0
         mass_center = (0, 0, 0)
@@ -3360,6 +3211,848 @@ leaf = false
         sources: 
 
         Node 256
+        center = (-125, -25, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 208
+      center = (-50, -50, 150)
+      half_size = 50
+      mass = 1.12202e+10
+      mass_center = (-54.9882, -8.30308, 143.469)
+      leaf = true
+      sources: 49 
+
+    Node 157
+    center = (-300, -300, 300)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 158
+    center = (-100, -300, 300)
+    half_size = 100
+    mass = 4.7863e+10
+    mass_center = (-35.3354, -299.502, 202.272)
+    leaf = true
+    sources: 107 
+
+    Node 159
+    center = (-300, -100, 300)
+    half_size = 100
+    mass = 3.39988e+11
+    mass_center = (-277.478, -140.999, 294.24)
+    leaf = false
+
+      Node 457
+      center = (-350, -150, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 458
+      center = (-250, -150, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 459
+      center = (-350, -50, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 460
+      center = (-250, -50, 250)
+      half_size = 50
+      mass = 6.45655e+10
+      mass_center = (-291.753, -85.092, 200.059)
+      leaf = true
+      sources: 95 
+
+      Node 461
+      center = (-350, -150, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 462
+      center = (-250, -150, 350)
+      half_size = 50
+      mass = 2.75423e+11
+      mass_center = (-274.132, -154.105, 316.318)
+      leaf = true
+      sources: 80 
+
+      Node 463
+      center = (-350, -50, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 464
+      center = (-250, -50, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 160
+    center = (-100, -100, 300)
+    half_size = 100
+    mass = 2.18392e+11
+    mass_center = (-121.83, -139.37, 249.488)
+    leaf = false
+
+      Node 385
+      center = (-150, -150, 250)
+      half_size = 50
+      mass = 1.62158e+11
+      mass_center = (-152.029, -176.65, 252.256)
+      leaf = false
+
+        Node 465
+        center = (-175, -175, 225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 466
+        center = (-125, -175, 225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 467
+        center = (-175, -125, 225)
+        half_size = 25
+        mass = 4.46683e+10
+        mass_center = (-184.652, -136.13, 220.131)
+        leaf = true
+        sources: 97 
+
+        Node 468
+        center = (-125, -125, 225)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 469
+        center = (-175, -175, 275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 470
+        center = (-125, -175, 275)
+        half_size = 25
+        mass = 1.1749e+11
+        mass_center = (-139.627, -192.056, 264.47)
+        leaf = true
+        sources: 85 
+
+        Node 471
+        center = (-175, -125, 275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 472
+        center = (-125, -125, 275)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 386
+      center = (-50, -150, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 387
+      center = (-150, -50, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 388
+      center = (-50, -50, 250)
+      half_size = 50
+      mass = 5.62341e+10
+      mass_center = (-34.7446, -31.8655, 241.504)
+      leaf = true
+      sources: 21 
+
+      Node 389
+      center = (-150, -150, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 390
+      center = (-50, -150, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 391
+      center = (-150, -50, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 392
+      center = (-50, -50, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+  Node 6
+  center = (200, -200, 200)
+  half_size = 200
+  mass = 6.9305e+11
+  mass_center = (114.655, -110.087, 152.334)
+  leaf = false
+
+    Node 9
+    center = (100, -300, 100)
+    half_size = 100
+    mass = 4.36516e+10
+    mass_center = (120.693, -210.751, 173.938)
+    leaf = true
+    sources: 78 
+
+    Node 10
+    center = (300, -300, 100)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 11
+    center = (100, -100, 100)
+    half_size = 100
+    mass = 3.85956e+11
+    mass_center = (81.6742, -92.8652, 87.041)
+    leaf = false
+
+      Node 17
+      center = (50, -150, 50)
+      half_size = 50
+      mass = 5.24808e+10
+      mass_center = (55.4086, -183.665, 31.9404)
+      leaf = true
+      sources: 44 
+
+      Node 18
+      center = (150, -150, 50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 19
+      center = (50, -50, 50)
+      half_size = 50
+      mass = 1.62512e+11
+      mass_center = (38.5298, -37.6423, 53.3867)
+      leaf = false
+
+        Node 25
+        center = (25, -75, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 26
+        center = (75, -75, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 27
+        center = (25, -25, 25)
+        half_size = 25
+        mass = 5.7544e+10
+        mass_center = (0.0169608, -0.129889, 3.69441)
+        leaf = true
+        sources: 0 
+
+        Node 28
+        center = (75, -25, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 29
+        center = (25, -75, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 30
+        center = (75, -75, 75)
+        half_size = 25
+        mass = 9.77237e+10
+        mass_center = (61.8089, -61.6741, 81.4282)
+        leaf = true
+        sources: 2 
+
+        Node 31
+        center = (25, -25, 75)
+        half_size = 25
+        mass = 7.24435e+09
+        mass_center = (30.4232, -11.4343, 69.8374)
+        leaf = true
+        sources: 10 
+
+        Node 32
+        center = (75, -25, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 20
+      center = (150, -50, 50)
+      half_size = 50
+      mass = 1.44544e+10
+      mass_center = (107.946, -74.4755, 16.913)
+      leaf = true
+      sources: 46 
+
+      Node 21
+      center = (50, -150, 150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 22
+      center = (150, -150, 150)
+      half_size = 50
+      mass = 9.55814e+10
+      mass_center = (181.973, -191.326, 134.12)
+      leaf = false
+
+        Node 505
+        center = (125, -175, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 506
+        center = (175, -175, 125)
+        half_size = 25
+        mass = 9.55814e+10
+        mass_center = (181.973, -191.326, 134.12)
+        leaf = false
+
+          Node 513
+          center = (162.5, -187.5, 112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 514
+          center = (187.5, -187.5, 112.5)
+          half_size = 12.5
+          mass = 2.95121e+10
+          mass_center = (177.208, -184.897, 112.187)
+          leaf = true
+          sources: 102 
+
+          Node 515
+          center = (162.5, -162.5, 112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 516
+          center = (187.5, -162.5, 112.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 517
+          center = (162.5, -187.5, 137.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 518
+          center = (187.5, -187.5, 137.5)
+          half_size = 12.5
+          mass = 6.60693e+10
+          mass_center = (184.101, -194.197, 143.917)
+          leaf = true
+          sources: 110 
+
+          Node 519
+          center = (162.5, -162.5, 137.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+          Node 520
+          center = (187.5, -162.5, 137.5)
+          half_size = 12.5
+          mass = 0
+          mass_center = (0, 0, 0)
+          leaf = true
+          sources: 
+
+        Node 507
+        center = (125, -125, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 508
+        center = (175, -125, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 509
+        center = (125, -175, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 510
+        center = (175, -175, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 511
+        center = (125, -125, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 512
+        center = (175, -125, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 23
+      center = (50, -50, 150)
+      half_size = 50
+      mass = 3.80189e+10
+      mass_center = (24.7786, -16.4576, 177.802)
+      leaf = true
+      sources: 84 
+
+      Node 24
+      center = (150, -50, 150)
+      half_size = 50
+      mass = 2.29087e+10
+      mass_center = (107.28, -4.20403, 149.205)
+      leaf = true
+      sources: 28 
+
+    Node 12
+    center = (300, -100, 100)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 13
+    center = (100, -300, 300)
+    half_size = 100
+    mass = 5.12861e+10
+    mass_center = (147, -226.304, 212.705)
+    leaf = true
+    sources: 101 
+
+    Node 14
+    center = (300, -300, 300)
+    half_size = 100
+    mass = 0
+    mass_center = (0, 0, 0)
+    leaf = true
+    sources: 
+
+    Node 15
+    center = (100, -100, 300)
+    half_size = 100
+    mass = 1.46086e+11
+    mass_center = (136.595, -81.827, 265.921)
+    leaf = false
+
+      Node 393
+      center = (50, -150, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 394
+      center = (150, -150, 250)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 395
+      center = (50, -50, 250)
+      half_size = 50
+      mass = 3.38844e+10
+      mass_center = (97.5079, -79.2734, 219.098)
+      leaf = true
+      sources: 86 
+
+      Node 396
+      center = (150, -50, 250)
+      half_size = 50
+      mass = 1.12202e+11
+      mass_center = (148.399, -82.5982, 280.062)
+      leaf = true
+      sources: 73 
+
+      Node 397
+      center = (50, -150, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 398
+      center = (150, -150, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 399
+      center = (50, -50, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 400
+      center = (150, -50, 350)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+    Node 16
+    center = (300, -100, 300)
+    half_size = 100
+    mass = 6.60693e+10
+    mass_center = (229.713, -116.456, 221.466)
+    leaf = true
+    sources: 115 
+
+  Node 7
+  center = (-200, 200, 200)
+  half_size = 200
+  mass = 7.74602e+11
+  mass_center = (-162.356, 104.161, 136.599)
+  leaf = false
+
+    Node 81
+    center = (-300, 100, 100)
+    half_size = 100
+    mass = 3.13092e+11
+    mass_center = (-239.486, 125.943, 89.172)
+    leaf = false
+
+      Node 345
+      center = (-350, 50, 50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 346
+      center = (-250, 50, 50)
+      half_size = 50
+      mass = 7.07946e+10
+      mass_center = (-205.159, 64.6179, 5.72956)
+      leaf = true
+      sources: 43 
+
+      Node 347
+      center = (-350, 150, 50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 348
+      center = (-250, 150, 50)
+      half_size = 50
+      mass = 1.62864e+11
+      mass_center = (-245.483, 153.241, 73.8251)
+      leaf = false
+
+        Node 489
+        center = (-275, 125, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 490
+        center = (-225, 125, 25)
+        half_size = 25
+        mass = 2.45471e+10
+        mass_center = (-207.732, 121.257, 49.2652)
+        leaf = true
+        sources: 68 
+
+        Node 491
+        center = (-275, 175, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 492
+        center = (-225, 175, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 493
+        center = (-275, 125, 75)
+        half_size = 25
+        mass = 5.88844e+10
+        mass_center = (-266.275, 118.313, 99.6272)
+        leaf = true
+        sources: 108 
+
+        Node 494
+        center = (-225, 125, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 495
+        center = (-275, 175, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 496
+        center = (-225, 175, 75)
+        half_size = 25
+        mass = 7.94328e+10
+        mass_center = (-241.735, 189.017, 62.2875)
+        leaf = true
+        sources: 122 
+
+      Node 349
+      center = (-350, 50, 150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 350
+      center = (-250, 50, 150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 351
+      center = (-350, 150, 150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 352
+      center = (-250, 150, 150)
+      half_size = 50
+      mass = 7.94328e+10
+      mass_center = (-257.786, 124.628, 195.007)
+      leaf = true
+      sources: 81 
+
+    Node 82
+    center = (-100, 100, 100)
+    half_size = 100
+    mass = 2.81207e+11
+    mass_center = (-91.7592, 69.2546, 120.254)
+    leaf = false
+
+      Node 89
+      center = (-150, 50, 50)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 90
+      center = (-50, 50, 50)
+      half_size = 50
+      mass = 2.12426e+10
+      mass_center = (-34.1013, 21.3816, 27.7585)
+      leaf = false
+
+        Node 97
+        center = (-75, 25, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 98
+        center = (-25, 25, 25)
+        half_size = 25
+        mass = 1.54882e+10
+        mass_center = (-44.3367, 14.9073, 11.4937)
+        leaf = true
+        sources: 3 
+
+        Node 99
+        center = (-75, 75, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 100
+        center = (-25, 75, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 101
+        center = (-75, 25, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 102
+        center = (-25, 25, 75)
+        half_size = 25
+        mass = 5.7544e+09
+        mass_center = (-6.55249, 38.8075, 71.5359)
+        leaf = true
+        sources: 11 
+
+        Node 103
+        center = (-75, 75, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 104
         center = (-25, 75, 75)
         half_size = 25
         mass = 0
@@ -3367,39 +4060,228 @@ leaf = false
         leaf = true
         sources: 
 
-      Node 179
+      Node 91
       center = (-150, 150, 50)
       half_size = 50
-      mass = 5.88844e+10
-      mass_center = (-159.449, 184.028, 89.0239)
+      mass = 0
+      mass_center = (0, 0, 0)
       leaf = true
-      sources: 42 
+      sources: 
 
-      Node 180
+      Node 92
       center = (-50, 150, 50)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
+      mass = 4.81364e+10
+      mass_center = (-60.5425, 170.843, 48.2944)
+      leaf = false
 
-      Node 181
+        Node 241
+        center = (-75, 125, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 242
+        center = (-25, 125, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 243
+        center = (-75, 175, 25)
+        half_size = 25
+        mass = 2.81838e+10
+        mass_center = (-51.5123, 196.25, 36.4886)
+        leaf = true
+        sources: 52 
+
+        Node 244
+        center = (-25, 175, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 245
+        center = (-75, 125, 75)
+        half_size = 25
+        mass = 1.99526e+10
+        mass_center = (-73.2979, 134.955, 64.9706)
+        leaf = true
+        sources: 23 
+
+        Node 246
+        center = (-25, 125, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 247
+        center = (-75, 175, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 248
+        center = (-25, 175, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 93
       center = (-150, 50, 150)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
+      mass = 1.06337e+11
+      mass_center = (-127.321, 33.8134, 146.306)
+      leaf = false
 
-      Node 182
+        Node 337
+        center = (-175, 25, 125)
+        half_size = 25
+        mass = 3.71535e+10
+        mass_center = (-152.653, 41.8832, 124.655)
+        leaf = true
+        sources: 66 
+
+        Node 338
+        center = (-125, 25, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 339
+        center = (-175, 75, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 340
+        center = (-125, 75, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 341
+        center = (-175, 25, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 342
+        center = (-125, 25, 175)
+        half_size = 25
+        mass = 6.91831e+10
+        mass_center = (-113.716, 29.4797, 157.933)
+        leaf = true
+        sources: 24 
+
+        Node 343
+        center = (-175, 75, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 344
+        center = (-125, 75, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 94
       center = (-50, 50, 150)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
+      mass = 8.45985e+10
+      mass_center = (-79.7338, 49.7819, 143.479)
+      leaf = false
 
-      Node 183
+        Node 161
+        center = (-75, 25, 125)
+        half_size = 25
+        mass = 1.38039e+10
+        mass_center = (-54.1957, 6.38882, 138.163)
+        leaf = true
+        sources: 22 
+
+        Node 162
+        center = (-25, 25, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 163
+        center = (-75, 75, 125)
+        half_size = 25
+        mass = 7.07946e+10
+        mass_center = (-84.7134, 58.2429, 144.515)
+        leaf = true
+        sources: 20 
+
+        Node 164
+        center = (-25, 75, 125)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 165
+        center = (-75, 25, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 166
+        center = (-25, 25, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 167
+        center = (-75, 75, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 168
+        center = (-25, 75, 175)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 95
       center = (-150, 150, 150)
       half_size = 50
       mass = 0
@@ -3407,23 +4289,23 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 184
+      Node 96
       center = (-50, 150, 150)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 2.08929e+10
+      mass_center = (-90.0037, 143.103, 153.457)
       leaf = true
-      sources: 
+      sources: 34 
 
-    Node 171
+    Node 83
     center = (-300, 300, 100)
     half_size = 100
-    mass = 5.62341e+10
-    mass_center = (-227.142, 229.849, 171.444)
+    mass = 0
+    mass_center = (0, 0, 0)
     leaf = true
-    sources: 104 
+    sources: 
 
-    Node 172
+    Node 84
     center = (-100, 300, 100)
     half_size = 100
     mass = 0
@@ -3431,54 +4313,54 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 173
+    Node 85
     center = (-300, 100, 300)
     half_size = 100
-    mass = 8.91251e+10
-    mass_center = (-315.691, 101.75, 237.18)
+    mass = 7.4131e+10
+    mass_center = (-215.748, 117.104, 241.395)
     leaf = true
-    sources: 88 
+    sources: 90 
 
-    Node 174
+    Node 86
     center = (-100, 100, 300)
     half_size = 100
-    mass = 6.20682e+10
-    mass_center = (-39.1366, 104.581, 263.554)
+    mass = 1.06172e+11
+    mass_center = (-84.6074, 123.345, 246.579)
     leaf = false
 
-      Node 361
+      Node 441
       center = (-150, 50, 250)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 2.88403e+10
+      mass_center = (-125.369, 32.9589, 233.515)
       leaf = true
-      sources: 
+      sources: 35 
 
-      Node 362
+      Node 442
       center = (-50, 50, 250)
       half_size = 50
-      mass = 2.81838e+10
-      mass_center = (-80.5218, 8.9105, 298.813)
-      leaf = true
-      sources: 72 
-
-      Node 363
-      center = (-150, 150, 250)
-      half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 364
+      Node 443
+      center = (-150, 150, 250)
+      half_size = 50
+      mass = 4.57088e+10
+      mass_center = (-109.174, 175.759, 248.506)
+      leaf = true
+      sources: 91 
+
+      Node 444
       center = (-50, 150, 250)
       half_size = 50
-      mass = 3.38844e+10
-      mass_center = (-4.71392, 184.156, 234.227)
+      mass = 3.16228e+10
+      mass_center = (-11.9235, 130.019, 255.708)
       leaf = true
-      sources: 77 
+      sources: 112 
 
-      Node 365
+      Node 445
       center = (-150, 50, 350)
       half_size = 50
       mass = 0
@@ -3486,7 +4368,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 366
+      Node 446
       center = (-50, 50, 350)
       half_size = 50
       mass = 0
@@ -3494,7 +4376,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 367
+      Node 447
       center = (-150, 150, 350)
       half_size = 50
       mass = 0
@@ -3502,7 +4384,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 368
+      Node 448
       center = (-50, 150, 350)
       half_size = 50
       mass = 0
@@ -3510,7 +4392,7 @@ leaf = false
       leaf = true
       sources: 
 
-    Node 175
+    Node 87
     center = (-300, 300, 300)
     half_size = 100
     mass = 0
@@ -3518,7 +4400,7 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 176
+    Node 88
     center = (-100, 300, 300)
     half_size = 100
     mass = 0
@@ -3529,231 +4411,42 @@ leaf = false
   Node 8
   center = (200, 200, 200)
   half_size = 200
-  mass = 6.41702e+11
-  mass_center = (121.014, 145.924, 130.732)
+  mass = 5.09755e+11
+  mass_center = (175.752, 101.483, 154.946)
   leaf = false
 
-    Node 105
+    Node 169
     center = (100, 100, 100)
     half_size = 100
-    mass = 2.55639e+11
-    mass_center = (116.023, 100.378, 116.567)
+    mass = 9.99279e+10
+    mass_center = (45.4545, 111.308, 87.3165)
     leaf = false
 
-      Node 113
+      Node 177
       center = (50, 50, 50)
       half_size = 50
-      mass = 4.19626e+10
-      mass_center = (33.1938, 92.2181, 83.4179)
-      leaf = false
+      mass = 1.62181e+10
+      mass_center = (59.1527, 30.8788, 53.7743)
+      leaf = true
+      sources: 9 
 
-        Node 241
-        center = (25, 25, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 242
-        center = (75, 25, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 243
-        center = (25, 75, 25)
-        half_size = 25
-        mass = 4.80912e+09
-        mass_center = (10.7271, 59.236, 9.25342)
-        leaf = false
-
-          Node 273
-          center = (12.5, 62.5, 12.5)
-          half_size = 12.5
-          mass = 4.80912e+09
-          mass_center = (10.7271, 59.236, 9.25342)
-          leaf = false
-
-            Node 281
-            center = (6.25, 56.25, 6.25)
-            half_size = 6.25
-            mass = 2.57039e+09
-            mass_center = (8.16442, 55.896, 10.6269)
-            leaf = true
-            sources: 56 
-
-            Node 282
-            center = (18.75, 56.25, 6.25)
-            half_size = 6.25
-            mass = 0
-            mass_center = (0, 0, 0)
-            leaf = true
-            sources: 
-
-            Node 283
-            center = (6.25, 68.75, 6.25)
-            half_size = 6.25
-            mass = 0
-            mass_center = (0, 0, 0)
-            leaf = true
-            sources: 
-
-            Node 284
-            center = (18.75, 68.75, 6.25)
-            half_size = 6.25
-            mass = 2.23872e+09
-            mass_center = (13.6694, 63.0708, 7.67647)
-            leaf = true
-            sources: 61 
-
-            Node 285
-            center = (6.25, 56.25, 18.75)
-            half_size = 6.25
-            mass = 0
-            mass_center = (0, 0, 0)
-            leaf = true
-            sources: 
-
-            Node 286
-            center = (18.75, 56.25, 18.75)
-            half_size = 6.25
-            mass = 0
-            mass_center = (0, 0, 0)
-            leaf = true
-            sources: 
-
-            Node 287
-            center = (6.25, 68.75, 18.75)
-            half_size = 6.25
-            mass = 0
-            mass_center = (0, 0, 0)
-            leaf = true
-            sources: 
-
-            Node 288
-            center = (18.75, 68.75, 18.75)
-            half_size = 6.25
-            mass = 0
-            mass_center = (0, 0, 0)
-            leaf = true
-            sources: 
-
-          Node 274
-          center = (37.5, 62.5, 12.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 275
-          center = (12.5, 87.5, 12.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 276
-          center = (37.5, 87.5, 12.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 277
-          center = (12.5, 62.5, 37.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 278
-          center = (37.5, 62.5, 37.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 279
-          center = (12.5, 87.5, 37.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-          Node 280
-          center = (37.5, 87.5, 37.5)
-          half_size = 12.5
-          mass = 0
-          mass_center = (0, 0, 0)
-          leaf = true
-          sources: 
-
-        Node 244
-        center = (75, 75, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 245
-        center = (25, 25, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 246
-        center = (75, 25, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 247
-        center = (25, 75, 75)
-        half_size = 25
-        mass = 3.71535e+10
-        mass_center = (36.1019, 96.4873, 93.0177)
-        leaf = true
-        sources: 14 
-
-        Node 248
-        center = (75, 75, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 114
+      Node 178
       center = (150, 50, 50)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 1.31826e+10
+      mass_center = (107.913, 14.1686, 46.0515)
       leaf = true
-      sources: 
+      sources: 58 
 
-      Node 115
+      Node 179
       center = (50, 150, 50)
       half_size = 50
-      mass = 2.88403e+10
-      mass_center = (86.1779, 150.811, 73.7885)
+      mass = 4.16869e+10
+      mass_center = (43.3121, 141.246, 48.816)
       leaf = true
-      sources: 40 
+      sources: 30 
 
-      Node 116
+      Node 180
       center = (150, 150, 50)
       half_size = 50
       mass = 0
@@ -3761,235 +4454,46 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 117
+      Node 181
       center = (50, 50, 150)
-      half_size = 50
-      mass = 2.87927e+10
-      mass_center = (94.3391, 46.4377, 157.198)
-      leaf = false
-
-        Node 297
-        center = (25, 25, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 298
-        center = (75, 25, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 299
-        center = (25, 75, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 300
-        center = (75, 75, 125)
-        half_size = 25
-        mass = 7.4131e+09
-        mass_center = (98.9367, 68.7368, 109.13)
-        leaf = true
-        sources: 29 
-
-        Node 301
-        center = (25, 25, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 302
-        center = (75, 25, 175)
-        half_size = 25
-        mass = 2.13796e+10
-        mass_center = (92.7449, 38.7058, 173.865)
-        leaf = true
-        sources: 64 
-
-        Node 303
-        center = (25, 75, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 304
-        center = (75, 75, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 118
-      center = (150, 50, 150)
-      half_size = 50
-      mass = 4.99357e+10
-      mass_center = (122.474, 15.327, 144.887)
-      leaf = false
-
-        Node 121
-        center = (125, 25, 125)
-        half_size = 25
-        mass = 3.54814e+10
-        mass_center = (121.772, 13.8144, 140.766)
-        leaf = true
-        sources: 15 
-
-        Node 122
-        center = (175, 25, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 123
-        center = (125, 75, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 124
-        center = (175, 75, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 125
-        center = (125, 25, 175)
-        half_size = 25
-        mass = 1.44544e+10
-        mass_center = (124.195, 19.0401, 155.001)
-        leaf = true
-        sources: 12 
-
-        Node 126
-        center = (175, 25, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 127
-        center = (125, 75, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 128
-        center = (175, 75, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-      Node 119
-      center = (50, 150, 150)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 120
+      Node 182
+      center = (150, 50, 150)
+      half_size = 50
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
+
+      Node 183
+      center = (50, 150, 150)
+      half_size = 50
+      mass = 2.88403e+10
+      mass_center = (12.2993, 157.662, 180.69)
+      leaf = true
+      sources: 33 
+
+      Node 184
       center = (150, 150, 150)
       half_size = 50
-      mass = 1.06107e+11
-      mass_center = (159.739, 144.56, 116.95)
-      leaf = false
+      mass = 0
+      mass_center = (0, 0, 0)
+      leaf = true
+      sources: 
 
-        Node 201
-        center = (125, 125, 125)
-        half_size = 25
-        mass = 1.69824e+10
-        mass_center = (119.739, 113.548, 125.304)
-        leaf = true
-        sources: 13 
-
-        Node 202
-        center = (175, 125, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 203
-        center = (125, 175, 125)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 204
-        center = (175, 175, 125)
-        half_size = 25
-        mass = 8.91251e+10
-        mass_center = (167.361, 150.47, 115.358)
-        leaf = true
-        sources: 39 
-
-        Node 205
-        center = (125, 125, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 206
-        center = (175, 125, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 207
-        center = (125, 175, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 208
-        center = (175, 175, 175)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-    Node 106
+    Node 170
     center = (300, 100, 100)
     half_size = 100
-    mass = 8.13372e+10
-    mass_center = (242.243, 159.051, 76.8872)
+    mass = 2.14463e+11
+    mass_center = (289.243, 94.6249, 98.4346)
     leaf = false
 
-      Node 433
+      Node 497
       center = (250, 50, 50)
       half_size = 50
       mass = 0
@@ -3997,86 +4501,86 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 434
+      Node 498
       center = (350, 50, 50)
+      half_size = 50
+      mass = 1.04088e+11
+      mass_center = (314.568, 65.6009, 46.2535)
+      leaf = false
+
+        Node 529
+        center = (325, 25, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 530
+        center = (375, 25, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 531
+        center = (325, 75, 25)
+        half_size = 25
+        mass = 6.60693e+10
+        mass_center = (317.787, 97.4191, 15.5873)
+        leaf = true
+        sources: 114 
+
+        Node 532
+        center = (375, 75, 25)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 533
+        center = (325, 25, 75)
+        half_size = 25
+        mass = 3.80189e+10
+        mass_center = (308.973, 10.3071, 99.5451)
+        leaf = true
+        sources: 116 
+
+        Node 534
+        center = (375, 25, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 535
+        center = (325, 75, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+        Node 536
+        center = (375, 75, 75)
+        half_size = 25
+        mass = 0
+        mass_center = (0, 0, 0)
+        leaf = true
+        sources: 
+
+      Node 499
+      center = (250, 150, 50)
       half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 435
-      center = (250, 150, 50)
-      half_size = 50
-      mass = 8.13372e+10
-      mass_center = (242.243, 159.051, 76.8872)
-      leaf = false
-
-        Node 441
-        center = (225, 125, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 442
-        center = (275, 125, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 443
-        center = (225, 175, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 444
-        center = (275, 175, 25)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 445
-        center = (225, 125, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 446
-        center = (275, 125, 75)
-        half_size = 25
-        mass = 0
-        mass_center = (0, 0, 0)
-        leaf = true
-        sources: 
-
-        Node 447
-        center = (225, 175, 75)
-        half_size = 25
-        mass = 4.89778e+10
-        mass_center = (218.013, 158.82, 94.308)
-        leaf = true
-        sources: 105 
-
-        Node 448
-        center = (275, 175, 75)
-        half_size = 25
-        mass = 3.23594e+10
-        mass_center = (278.916, 159.401, 50.5198)
-        leaf = true
-        sources: 100 
-
-      Node 436
+      Node 500
       center = (350, 150, 50)
       half_size = 50
       mass = 0
@@ -4084,15 +4588,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 437
+      Node 501
       center = (250, 50, 150)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 6.02559e+10
+      mass_center = (262.288, 95.3236, 170.414)
       leaf = true
-      sources: 
+      sources: 99 
 
-      Node 438
+      Node 502
       center = (350, 50, 150)
       half_size = 50
       mass = 0
@@ -4100,15 +4604,15 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 439
+      Node 503
       center = (250, 150, 150)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 5.01187e+10
+      mass_center = (269.055, 154.063, 120.268)
       leaf = true
-      sources: 
+      sources: 109 
 
-      Node 440
+      Node 504
       center = (350, 150, 150)
       half_size = 50
       mass = 0
@@ -4116,78 +4620,15 @@ leaf = false
       leaf = true
       sources: 
 
-    Node 107
+    Node 171
     center = (100, 300, 100)
     half_size = 100
-    mass = 1.61194e+11
-    mass_center = (99.7583, 301.76, 82.7845)
-    leaf = false
+    mass = 3.98108e+10
+    mass_center = (25.7971, 225.98, 169.328)
+    leaf = true
+    sources: 92 
 
-      Node 489
-      center = (50, 250, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 490
-      center = (150, 250, 50)
-      half_size = 50
-      mass = 5.49541e+10
-      mass_center = (146.348, 255.208, 61.5913)
-      leaf = true
-      sources: 111 
-
-      Node 491
-      center = (50, 350, 50)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 492
-      center = (150, 350, 50)
-      half_size = 50
-      mass = 5.12861e+10
-      mass_center = (113.727, 310.272, 45.6028)
-      leaf = true
-      sources: 118 
-
-      Node 493
-      center = (50, 250, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 494
-      center = (150, 250, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-      Node 495
-      center = (50, 350, 150)
-      half_size = 50
-      mass = 5.49541e+10
-      mass_center = (40.1315, 340.369, 138.678)
-      leaf = true
-      sources: 103 
-
-      Node 496
-      center = (150, 350, 150)
-      half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
-      leaf = true
-      sources: 
-
-    Node 108
+    Node 172
     center = (300, 300, 100)
     half_size = 100
     mass = 0
@@ -4195,46 +4636,46 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 109
+    Node 173
     center = (100, 100, 300)
     half_size = 100
-    mass = 1.43532e+11
-    mass_center = (85.0788, 44.5938, 240.321)
+    mass = 1.55553e+11
+    mass_center = (141.364, 72.7656, 272.623)
     leaf = false
 
-      Node 537
+      Node 449
       center = (50, 50, 250)
       half_size = 50
-      mass = 1.09648e+11
-      mass_center = (57.6397, 20.8067, 246.116)
+      mass = 0
+      mass_center = (0, 0, 0)
       leaf = true
-      sources: 65 
+      sources: 
 
-      Node 538
+      Node 450
       center = (150, 50, 250)
       half_size = 50
-      mass = 0
-      mass_center = (0, 0, 0)
+      mass = 1.14815e+11
+      mass_center = (175.815, 40.0517, 289.247)
       leaf = true
-      sources: 
+      sources: 27 
 
-      Node 539
+      Node 451
       center = (50, 150, 250)
       half_size = 50
+      mass = 4.0738e+10
+      mass_center = (44.2655, 164.966, 225.769)
+      leaf = true
+      sources: 93 
+
+      Node 452
+      center = (150, 150, 250)
+      half_size = 50
       mass = 0
       mass_center = (0, 0, 0)
       leaf = true
       sources: 
 
-      Node 540
-      center = (150, 150, 250)
-      half_size = 50
-      mass = 3.38844e+10
-      mass_center = (173.87, 121.567, 221.568)
-      leaf = true
-      sources: 126 
-
-      Node 541
+      Node 453
       center = (50, 50, 350)
       half_size = 50
       mass = 0
@@ -4242,7 +4683,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 542
+      Node 454
       center = (150, 50, 350)
       half_size = 50
       mass = 0
@@ -4250,7 +4691,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 543
+      Node 455
       center = (50, 150, 350)
       half_size = 50
       mass = 0
@@ -4258,7 +4699,7 @@ leaf = false
       leaf = true
       sources: 
 
-      Node 544
+      Node 456
       center = (150, 150, 350)
       half_size = 50
       mass = 0
@@ -4266,7 +4707,7 @@ leaf = false
       leaf = true
       sources: 
 
-    Node 110
+    Node 174
     center = (300, 100, 300)
     half_size = 100
     mass = 0
@@ -4274,7 +4715,7 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 111
+    Node 175
     center = (100, 300, 300)
     half_size = 100
     mass = 0
@@ -4282,7 +4723,7 @@ leaf = false
     leaf = true
     sources: 
 
-    Node 112
+    Node 176
     center = (300, 300, 300)
     half_size = 100
     mass = 0

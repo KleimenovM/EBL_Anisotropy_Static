@@ -32,3 +32,6 @@ private:
     double dtau_dloga(double a);
     double dt_dloga(double a);
 };
+
+
+const Cosmology& standardFlatCosmology();

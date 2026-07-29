@@ -1,5 +1,6 @@
 #include "galaxy/galaxyReader.hpp"
 #include "geometry/spherical.hpp"
+#include "cosmology/cosmology.hpp"
 
 #include <iostream>
 #include <cstdio>
@@ -9,8 +10,8 @@ constexpr float RAD2DEG = 180.0f / static_cast<float>(M_PI);
 
 
 int main()
-{
-    BiteauReader reader;
+{   
+    BiteauReader reader(standardFlatCosmology());
 
     std::string filename = std::string(TEST_DATA_DIR) + "/test_biteau_catalog.txt";
 

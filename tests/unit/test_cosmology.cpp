@@ -19,14 +19,9 @@ double a_exact(double t, double H0, double omega_m)
 
 
 int main(){
-    double H0 = 70;  // [km s-1 Mpc-1]
-    double c = 3e5;  // [km s-1]
-    double H0c = H0 / c;  // [Mpc-1]
-    double omega_m = 0.3;
+    auto cosmo = standardFlatCosmology();
 
-    auto tolerance = 1e-4;
-
-    auto cosmo = Cosmology(H0c, omega_m);
+    double tolerance = 1e-4;
 
     int break_counter = 0;
 
@@ -102,10 +97,10 @@ int main(){
     double a_low = 1 / (1 + z_low);
     double dl_low = cosmo.tau2dl(cosmo.a2tau(a_low));
 
-    if (std::abs(dl_low / (z_low / H0c) - 1) > tolerance)
+    if (std::abs(dl_low / (z_low / cosmo.H0) - 1) > tolerance)
     {
         std::cout << "ERROR, tau -> d_l -> low redshift procedure failed." << std::endl;
-        std::cout << dl_low << " instead of " << z_low / H0c << std::endl;
+        std::cout << dl_low << " instead of " << z_low / cosmo.H0 << std::endl;
     }
     else {
         std::cout << "SUCCESS. Low redshift test" << std::endl;
@@ -117,7 +112,7 @@ int main(){
     {
         double t = cosmo.tau2t(tau);
         double a = cosmo.tau2a(tau);
-        double a_analyt = a_exact(t, H0c, omega_m);
+        double a_analyt = a_exact(t, cosmo.H0, cosmo.omega_m);
         
         if (std::abs(a / a_analyt - 1) > tolerance)
         {

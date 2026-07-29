@@ -6,11 +6,12 @@
 
 #include "octree/octree.hpp"
 #include "galaxy/galaxyReader.hpp"
+#include "cosmology/cosmology.hpp"
 
 
 int main()
 {
-    BiteauReader reader;
+    BiteauReader reader(standardFlatCosmology());
 
     auto catalog = reader.read(std::string(CATALOG_DIR) + "/table5_biteau2021.txt");
 

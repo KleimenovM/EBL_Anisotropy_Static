@@ -82,8 +82,7 @@ void saveHistogram(
 
 int main()
 {
-    BiteauReader reader;
-
+    BiteauReader reader(standardFlatCosmology());
 
     auto catalog =
         reader.read(

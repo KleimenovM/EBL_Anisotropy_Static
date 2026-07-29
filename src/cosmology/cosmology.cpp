@@ -114,3 +114,16 @@ double Cosmology::tau2dl(double tau) const
     double a_tau = a_of_tau_(tau);
     return -tau / a_tau;
 }
+
+
+const Cosmology& standardFlatCosmology()
+{
+    constexpr double H0 = 70.0;      // [km s-1 Mpc-1]
+    constexpr double c = 3.0e5;      // [km s-1]
+    constexpr double H0c = H0 / c;   // [Mpc-1]
+    constexpr double omega_m = 0.3;
+
+    static const Cosmology cosmology(H0c, omega_m);
+
+    return cosmology;
+}

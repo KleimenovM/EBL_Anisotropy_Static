@@ -26,7 +26,6 @@ namespace
     }
 }
 
-
 GalaxyCatalog BiteauReader::read(
     const std::string& filename
 ) const
@@ -85,7 +84,9 @@ Galaxy BiteauReader::parseLine(
 
     eq.ra = ra_deg * DEG2RAD;
     eq.dec = dec_deg * DEG2RAD;
-    eq.distance = distance;
+    // Biteau catalog stores LUMINOSITY distances.
+    // We transform them into comoving distances within the used cosmological framework
+    eq.distance = cosmo.dl2tau(distance);
 
 
     Galaxy galaxy;
