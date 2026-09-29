@@ -18,7 +18,7 @@ int main()
     // reduce the size of the catalog
     std::vector<Source> catalog_reduced;
 
-    for (int i = 0; i < static_cast<int>(catalog.size()); i = i+4000)
+    for (int i = 0; i < static_cast<int>(catalog.size()); i+=4000)
     {   
         // Define the quantity stored in the octree
         float mass = powf(10.0f, catalog[i].logMstar);  // mass (in M_sun)
@@ -30,7 +30,7 @@ int main()
     Octree tree(
         catalog_reduced,
         400.0,
-        1e12,
+        1e10,
         5.0
     );
 
@@ -44,10 +44,10 @@ int main()
     tree.print(print_output);
     print_output.close();
 
-    // Write tree data for visualization
-    std::ofstream visualization_output(std::string(OUTPUT_DIR) + "/octree/biteau_data.txt");
-    tree.write_visualization(visualization_output);
-    visualization_output.close();
+    // // Write tree data for visualization
+    // std::ofstream visualization_output(std::string(OUTPUT_DIR) + "/octree/biteau_data.txt");
+    // tree.write_visualization(visualization_output);
+    // visualization_output.close();
 
     std::cout << "Nodes: " << tree.size() << std::endl;
 

@@ -57,14 +57,6 @@ public:
         float min_size
     );
 
-    // Compute radiation field contribution at a point.
-    // The opening_angle controls the Barnes-Hut accuracy.
-    float evaluate(
-        const Vector3D& position,
-        float opening_angle
-    ) const;
-
-
     // Return number of nodes in the tree.
     size_t size() const;
 
@@ -133,13 +125,6 @@ private:
         OctreeNode& node,
         const Source& source
     );
-
-    // Recursive Barnes-Hut evaluation.
-    float evaluate_recursive(
-        int node_index,
-        const Vector3D& position,
-        float opening_angle
-    ) const;
 
     // Distance between two points.
     float distance(

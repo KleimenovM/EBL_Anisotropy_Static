@@ -8,11 +8,6 @@
 #include "octree/octree.hpp"
 #include "geometry/vector3d.hpp"
 
-namespace
-{
-    constexpr float FOUR_PI = 4.0f * static_cast<float>(M_PI);
-}
-
 
 OctreeNode::OctreeNode(
     const Vector3D& c,
@@ -83,7 +78,7 @@ void Octree::insert_recursive(
     // increase the node mass and shift the mass center
     update_node(nodes_[node_index],source);
 
-    std::cout << "Node " << node_index << " is a leaf: " << nodes_[node_index].is_leaf << std::endl;
+    // std::cout << "Node " << node_index << " is a leaf: " << nodes_[node_index].is_leaf << std::endl;
 
     // Leaf node
     if (nodes_[node_index].is_leaf)
@@ -94,21 +89,21 @@ void Octree::insert_recursive(
             nodes_[node_index].half_size <= min_size_)        // minimal possible leaf
         {
             nodes_[node_index].source_indices.push_back(source_index);
-            std::cout << "Node " << node_index << " accepts source " << source_index << "\n";
+            // std::cout << "Node " << node_index << " accepts source " << source_index << "\n";
             return;
         }
 
         // Leaf cannot accept another source => Split leaf
-        std::cout << "Node " << node_index << " is overfilled! Split the leaf" << "\n";
+        // std::cout << "Node " << node_index << " is overfilled! Split the leaf" << "\n";
         auto old_indices = nodes_[node_index].source_indices;
         nodes_[node_index].source_indices.clear();
         subdivide(node_index);
 
-        std::cout << "Produces children # ";
-        for (int i = 0; i < 8; i++){
-            std::cout << nodes_[node_index].children[i] << " ";
-        }
-        std::cout << std::endl;
+        // std::cout << "Produces children # ";
+        // for (int i = 0; i < 8; i++){
+        //     std::cout << nodes_[node_index].children[i] << " ";
+        // }
+        // std::cout << std::endl;
 
         // Redistribute old sources
         for (int old_index : old_indices)
@@ -194,64 +189,6 @@ void Octree::update_node(
 
     // change the mass
     node.total_mass = new_mass;
-}
-
-
-float Octree::evaluate_recursive(
-    int node_index,
-    const Vector3D& position,
-    float opening_angle
-) const
-{
-    const OctreeNode& node = nodes_[node_index];
-
-    // Empty node
-    if (node.total_mass == 0.0)
-        return 0.0;
-
-    float d = distance(node.mass_center, position);
-
-    // Avoid self-contribution
-    if (d == 0.0)
-        return 0.0;
-
-    // Calculate IF
-    if (node.is_leaf ||                                  // node is a leaf
-        (2.0 * node.half_size / d) < opening_angle)      // node angular size is below the limit
-    {
-        return node.total_mass / (FOUR_PI * d * d);
-    }
-
-    // ELSE open the node
-    float value = 0.0;
-
-    // and add contributions from all children
-    for (int i = 0; i < 8; i++)
-    {
-        if (node.children[i] != -1)
-        {
-            value += evaluate_recursive(
-                node.children[i],
-                position,
-                opening_angle
-            );
-        }
-    }
-
-    return value;
-}
-
-
-float Octree::evaluate(
-    const Vector3D& position,
-    float opening_angle
-) const
-{
-    return evaluate_recursive(
-        root_index_,
-        position,
-        opening_angle
-    );
 }
 
 
