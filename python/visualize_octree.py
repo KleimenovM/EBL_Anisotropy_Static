@@ -110,9 +110,9 @@ def visualize(
         xs,
         ys,
         zs,
-        # c=ms,
-        # cmap='coolwarm',
-        # norm='log',
+        c=ms,
+        cmap='coolwarm',
+        norm='log',
         s=2,
         rasterized=True
     )
