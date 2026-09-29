@@ -1,0 +1,13 @@
+{
+    "Saldana-Lopez2021" : {
+        "folder": "Saldana-Lopez",
+        "data_raw": "ebl_saldana21_comoving.txt",
+        "err_raw": "eblerr_saldana21_comoving.txt",
+        "data_path": "ebl_saldana21_comoving.fits",
+        "err_path": "eblerr_saldana21_comoving.fits",
+        "description": "",
+        "data_source": "https://www.ucm.es/blazars/file/ebl_saldana21_comoving",
+        "err_source": "https://www.ucm.es/blazars/file/eblerr_saldana21_comoving",
+        "reference": "10.1093/mnras/stab2393"
+    }
+}
