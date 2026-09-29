@@ -55,7 +55,7 @@ int main()
         {
             for (int m = -l; m <= l; ++m)
             {
-                const double y = sh.Ylm(l, m, theta, phi);
+                const double y = sh.Ylm(l, m, std::cos(theta), phi);
 
                 std::cout
                     << l << ' '

@@ -26,8 +26,15 @@ public:
     double Ylm(
         int l,
         int m,
-        double theta,
+        double cos_theta,
         double phi
+    ) const;
+
+    std::vector<double> FullYlm(
+        int l_max,
+        double cos_theta,
+        double sin_phi,
+        double cos_phi
     ) const;
 
 private:

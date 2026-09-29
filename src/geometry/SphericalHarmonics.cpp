@@ -82,7 +82,7 @@ double SphericalHarmonics::associatedLegendre(
 double SphericalHarmonics::Ylm(
     int l,
     int m,
-    double theta,
+    double cos_theta,
     double phi
 ) const
 {
@@ -92,7 +92,7 @@ double SphericalHarmonics::Ylm(
 
     int abs_m = std::abs(m);
 
-    const double P = associatedLegendre(l, abs_m, std::cos(theta));
+    const double P = associatedLegendre(l, abs_m, cos_theta);
 
     const double N = normalization_[normalizationIndex(l, abs_m)];
 
@@ -103,4 +103,55 @@ double SphericalHarmonics::Ylm(
         return SQRT2 * N * P * std::sin(abs_m * phi);
 
     return N * P;
+}
+
+std::vector<double> SphericalHarmonics::FullYlm(
+    int l_max,
+    double cos_theta,
+    double sin_phi,
+    double cos_phi
+) const 
+{
+    assert(l_max >= 0);
+    assert(l_max <= lmax_);  // to remain within precomputed normalization boundaries
+
+    std::vector<double> sin_m_phi(2*l_max + 1, 0.0);
+    std::vector<double> cos_m_phi(2*l_max + 1, 1.0);
+    std::vector<double> result((l_max + 1) * (l_max + 1), normalization_[0]);
+
+    if (l_max == 0)
+        // The case of l_max = 0 is special: sin_m_phi[1] is ill defined
+        return result;
+
+    sin_m_phi[1] = sin_phi;
+    cos_m_phi[1] = cos_phi;
+
+    // precompute multiple angles based on sin & cos values only
+    for (int m_abs = 2; m_abs < l_max + 1; m_abs++){
+        sin_m_phi[m_abs] = sin_m_phi[m_abs-1] * cos_phi + cos_m_phi[m_abs-1] * sin_phi;
+        cos_m_phi[m_abs] = cos_m_phi[m_abs-1] * cos_phi - sin_m_phi[m_abs-1] * sin_phi;
+    }
+
+    // fill the final vector by spherical harmonics
+    for (int l = 0; l < l_max + 1; l++){
+        for (int m = -l; m < l + 1; m++){
+
+            int abs_m = std::abs(m);
+
+            const double P = associatedLegendre(l, abs_m, cos_theta);
+            const double N = normalization_[normalizationIndex(l, abs_m)];
+            
+            int idx = index(l, m);  // l(l+1) + m
+
+            if (m > 0){
+                result[idx] = (SQRT2 * N * P * cos_m_phi[abs_m]);
+            } else if (m < 0){
+                result[idx] = (SQRT2 * N * P * sin_m_phi[abs_m]);
+            } else {
+                result[idx] = N*P;
+            }
+        }
+    }
+
+    return result;
 }
