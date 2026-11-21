@@ -1,12 +1,39 @@
 #include <cmath>
 #include <algorithm>
 
+#include <climits>
+#include <cstdint>
+#include <cstring>
 #include <iostream>
 #include <fstream>
+#include <limits>
+#include <stdexcept>
 #include <string>
 
 #include "octree/octree.hpp"
 #include "geometry/vector3d.hpp"
+
+namespace
+{
+static_assert(CHAR_BIT == 8 && sizeof(float) == 4 &&
+              std::numeric_limits<float>::is_iec559,
+              "OCT1 requires 8-bit bytes and IEEE 754 binary32 floats");
+
+void store_uint32_le(unsigned char* bytes, std::uint32_t value)
+{
+    for (int i = 0; i < 4; ++i)
+    {
+        bytes[i] = static_cast<unsigned char>(value >> (8 * i));
+    }
+}
+
+void store_float32_le(unsigned char* bytes, float value)
+{
+    std::uint32_t bits;
+    std::memcpy(&bits, &value, sizeof(bits));
+    store_uint32_le(bytes, bits);
+}
+}
 
 
 OctreeNode::OctreeNode(
@@ -318,5 +345,65 @@ void Octree::write_sources_visualization(
             << source.position.z << " "
             << source.mass
             << "\n";
+    }
+}
+
+
+void Octree::write_binary(std::ostream& output) const
+{
+    // Every split adds exactly eight nodes to the root's initial count of one.
+    const auto split_count = (nodes_.size() - 1) / 8;
+    const auto max_count = std::numeric_limits<std::uint32_t>::max();
+    if (split_count > max_count || sources_.size() > max_count)
+    {
+        throw std::length_error("Octree exceeds the OCT1 count limits");
+    }
+
+    std::array<unsigned char, 16> bytes{'O', 'C', 'T', '1'};
+    store_uint32_le(bytes.data() + 4, static_cast<std::uint32_t>(split_count));
+    store_uint32_le(bytes.data() + 8, static_cast<std::uint32_t>(sources_.size()));
+    store_float32_le(bytes.data() + 12, nodes_[root_index_].half_size);
+    output.write(reinterpret_cast<const char*>(bytes.data()), bytes.size());
+
+    if (split_count != 0)
+    {
+        write_split_masks(output, root_index_);
+    }
+
+    for (const Source& source : sources_)
+    {
+        store_float32_le(bytes.data(), source.position.x);
+        store_float32_le(bytes.data() + 4, source.position.y);
+        store_float32_le(bytes.data() + 8, source.position.z);
+        store_float32_le(bytes.data() + 12, source.mass);
+        output.write(reinterpret_cast<const char*>(bytes.data()), bytes.size());
+    }
+
+    if (!output)
+    {
+        throw std::ios_base::failure("Could not write OCT1 octree");
+    }
+}
+
+
+void Octree::write_split_masks(std::ostream& output, int node_index) const
+{
+    const auto& children = nodes_[node_index].children;
+    unsigned char mask = 0;
+    for (int i = 0; i < 8; ++i)
+    {
+        if (!nodes_[children[i]].is_leaf)
+        {
+            mask |= static_cast<unsigned char>(1u << i);
+        }
+    }
+    output.write(reinterpret_cast<const char*>(&mask), sizeof(mask));
+
+    for (int i = 0; i < 8; ++i)
+    {
+        if (mask & (1u << i))
+        {
+            write_split_masks(output, children[i]);
+        }
     }
 }

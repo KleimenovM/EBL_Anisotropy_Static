@@ -1,6 +1,7 @@
 #pragma once
 
 #include <array>
+#include <iosfwd>
 #include <vector>
 
 #include "geometry/vector3d.hpp"
@@ -47,8 +48,8 @@ public:
      * Parameters:
      *   sources        : input source catalog
      *   half_size      : [Mpc] octree half-size
-     *   max_mass       : maximal mass per leaf
-     *   min_size       : [Mpc] minimal size of the leaf
+     *   max_mass       : mass threshold for splitting a populated leaf
+     *   min_size       : [Mpc] leaves at or below this half-size stop splitting
      */
     Octree(
         const std::vector<Source>& sources,
@@ -76,6 +77,17 @@ public:
         std::ofstream& output
     ) const;
 
+    // Write the OCT1 format to a stream opened in binary mode.
+    // The 16-byte little-endian header holds the ASCII magic OCT1, uint32
+    // split-node count, uint32 source count, and float32 root half-size.
+    // The root center is (0, 0, 0). Each split node contributes one byte in
+    // preorder, with bit i set if child i also splits. The child index uses
+    // bits 0, 1, and 2 for the positive x, y, and z sides of the parent,
+    // including ties on the split planes. A zero split-node count denotes a
+    // leaf root. Source records follow in original catalog order, with four
+    // little-endian float32 values per record (x, y, z, mass).
+    void write_binary(std::ostream& output) const;
+
 private:
 
     // Original source catalog. 
@@ -92,11 +104,11 @@ private:
     // Half-size of the root cube [Mpc]
     float half_size_;
 
-    // Maximum total mass allowed in a leaf
-    int max_mass_;
+    // Mass threshold for splitting a populated leaf.
+    float max_mass_;
 
-    // Minimal size allowed for a leaf [Mpc]
-    int min_size_;
+    // Half-size cutoff for splitting a leaf [Mpc].
+    float min_size_;
 
 private:
 
@@ -145,4 +157,6 @@ private:
         int node_index,
         int parent_index
     ) const;
+
+    void write_split_masks(std::ostream& output, int node_index) const;
 };
